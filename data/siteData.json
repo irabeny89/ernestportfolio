@@ -4,36 +4,40 @@
 			"src": "./public/images/altumcode-dC6Pb2JdAqs-unsplash.jpg"
 		},
 		"gfx": [
-			{ "src": "./images/gfx/1535727414912.jpg" },
-      { "src": "./images/gfx/job11d.jpg" },
-      { "src": "./images/gfx/aliko.jpg" },
-      { "src": "./images/gfx/job1k.jpg" },
-      { "src": "./images/gfx/'job1k.jpg'" },
-      { "src": "./images/gfx/shigo.jpg" },
-      { "src": "./images/gfx/IMG_20170731_183808.jpg" }
+			{ "id": 1, "src": "./images/gfx/1535727414912.jpg" },
+			{ "id": 2, "src": "./images/gfx/job11d.jpg" },
+			{ "id": 3, "src": "./images/gfx/aliko.jpg" },
+			{ "id": 4, "src": "./images/gfx/job1k.jpg" },
+			{ "id": 5, "src": "./images/gfx/'job1k.jpg'" },
+			{ "id": 6, "src": "./images/gfx/shigo.jpg" },
+			{ "id": 7, "src": "./images/gfx/IMG_20170731_183808.jpg" }
 		],
 		"ux": [
-			{ "src": "./images/ux/Adobe XD 01-Jan-21 7_06_50 PM.png" },
-			{ "src": "./images/ux/portfolio.png" },
-			{ "src": "./images/ux/simple-calculator.png" },
-			{ "src": "./images/ux/todoapp initial design.png" }
+			{ "id": 1, "src": "./images/ux/Adobe XD 01-Jan-21 7_06_50 PM.png" },
+			{ "id": 2, "src": "./images/ux/portfolio.png" },
+			{ "id": 3, "src": "./images/ux/simple-calculator.png" },
+			{ "id": 4, "src": "./images/ux/todoapp initial design.png" }
 		],
 		"dev": [
-			{ "src": "./images/dev/CVwebapp.png" },
-			{ "src": "./images/dev/lotto-game.png" },
-			{ "src": "./images/dev/dukadanweb.png" },
-			{ "src": "./images/dev/simple-todolist.png" },
-			{ "src": "./images/dev/express-notesapp.png" },
-			{ "src": "./images/dev/vanilla-todo-app.png" },
-			{ "src": "./images/dev/guess-game.png" }
+			{ "id": 1, "src": "./images/dev/CVwebapp.png" },
+			{ "id": 2, "src": "./images/dev/lotto-game.png" },
+			{ "id": 3, "src": "./images/dev/dukadanweb.png" },
+			{ "id": 4, "src": "./images/dev/simple-todolist.png" },
+			{ "id": 5, "src": "./images/dev/express-notesapp.png" },
+			{ "id": 6, "src": "./images/dev/vanilla-todo-app.png" },
+			{ "id": 7, "src": "./images/dev/guess-game.png" }
 		]
 	},
 	"introMsg": "I am a fullstack web developer. With Technology, possibilities are endless.",
-	"myWork": ["Graphics Design", "UX Design", "Development"],
+	"myWork": [
+		{ "id": 1, "type": "Graphics Design" },
+		{ "id": 2, "type": "UX Design" },
+		{ "id": 3, "type": "Development" }
+	],
 	"contacts": [
-		{ "phone": "09020951797" },
-		{ "email": "irabeny89@gmail.com" },
-		{ "linkedin": "https://linkedin.com/in/ernest-irabor-085486183" },
-		{ "github": "https://github.com/irabeny89" }
+		{ "id": 1, "phone": "09020951797" },
+		{ "id": 2, "email": "irabeny89@gmail.com" },
+		{ "id": 3, "linkedin": "https://linkedin.com/in/ernest-irabor-085486183" },
+		{ "id": 4, "github": "https://github.com/irabeny89" }
 	]
 }
