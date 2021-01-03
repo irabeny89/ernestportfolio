@@ -1,0 +1,14 @@
+.menuList {
+  background-color: #100E0E;
+  color: white;
+  font-size: 1.25rem;
+  text-align: right;
+  padding: .5rem 1rem;
+}
+.menuList h3 {
+  text-decoration: underline;
+  margin-block-start: .5rem;
+}
+.menuList ul {
+  list-style: none;
+}

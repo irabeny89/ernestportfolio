@@ -29,15 +29,19 @@
 		]
 	},
 	"introMsg": "I am a fullstack web developer. With Technology, possibilities are endless.",
-	"myWork": [
-		{ "id": 1, "type": "Graphics Design" },
+	"expertise": [
+		{ "id": 1, "type": "Development"},
 		{ "id": 2, "type": "UX Design" },
-		{ "id": 3, "type": "Development" }
+		{ "id": 3, "type": "Graphics Design"}
 	],
-	"contacts": [
-		{ "id": 1, "phone": "09020951797" },
-		{ "id": 2, "email": "irabeny89@gmail.com" },
-		{ "id": 3, "linkedin": "https://linkedin.com/in/ernest-irabor-085486183" },
-		{ "id": 4, "github": "https://github.com/irabeny89" }
+	"contact": [
+		{ "id": 1, "type": "Phone & Whatsapp", "line": "09020951797" },
+		{ "id": 2, "type": "Email", "line": "irabeny89@gmail.com" },
+		{
+			"id": 3,
+			"type": "Linkedin",
+			"line": "https://linkedin.com/in/ernest-irabor-085486183"
+		},
+		{ "id": 4, "type": "Github", "line": "https://github.com/irabeny89" }
 	]
 }

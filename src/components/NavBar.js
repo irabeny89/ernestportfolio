@@ -1,11 +1,11 @@
 import React from 'react'
-import Menu from './Menu'
+import MenuBtn from './MenuBtn'
 import styles from '../../styles/NavBar.module.css'
 
 const NavBar = () => 
   <div className={styles.navbar}>
     <h1>Ernest Irabor Portfolio</h1>
-    <Menu />
+    <MenuBtn />
   </div>
 
 export default NavBar
