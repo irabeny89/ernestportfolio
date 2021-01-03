@@ -1,6 +1,6 @@
 import '../styles/globals.css'
-import Layout from '../components/Layout'
-import MenuProvider from '../components/MenuProvider'
+import Layout from '../src/components/Layout'
+import MenuProvider from '../src/components/MenuProvider'
 
 function MyApp({ Component, pageProps }) {
   return (
