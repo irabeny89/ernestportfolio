@@ -1,39 +1,9 @@
 {
-	"images": {
-		"index": {
-			"src": "./public/images/altumcode-dC6Pb2JdAqs-unsplash.jpg"
-		},
-		"gfx": [
-			{ "id": 1, "src": "./images/gfx/1535727414912.jpg" },
-			{ "id": 2, "src": "./images/gfx/job11d.jpg" },
-			{ "id": 3, "src": "./images/gfx/aliko.jpg" },
-			{ "id": 4, "src": "./images/gfx/job1k.jpg" },
-			{ "id": 5, "src": "./images/gfx/'job1k.jpg'" },
-			{ "id": 6, "src": "./images/gfx/shigo.jpg" },
-			{ "id": 7, "src": "./images/gfx/IMG_20170731_183808.jpg" }
-		],
-		"ux": [
-			{ "id": 1, "src": "./images/ux/Adobe XD 01-Jan-21 7_06_50 PM.png" },
-			{ "id": 2, "src": "./images/ux/portfolio.png" },
-			{ "id": 3, "src": "./images/ux/simple-calculator.png" },
-			{ "id": 4, "src": "./images/ux/todoapp initial design.png" }
-		],
-		"dev": [
-			{ "id": 1, "src": "./images/dev/CVwebapp.png" },
-			{ "id": 2, "src": "./images/dev/lotto-game.png" },
-			{ "id": 3, "src": "./images/dev/dukadanweb.png" },
-			{ "id": 4, "src": "./images/dev/simple-todolist.png" },
-			{ "id": 5, "src": "./images/dev/express-notesapp.png" },
-			{ "id": 6, "src": "./images/dev/vanilla-todo-app.png" },
-			{ "id": 7, "src": "./images/dev/guess-game.png" }
-		]
+	"introMsg": "Hi, I am a fullstack web developer. I build applications with web technologies.",
+	"eg": "E.g Ecommerces, Blogs, Marketing pages and mobile equivalence etc",
+	"index": {
+		"src": "/images/altumcode-dC6Pb2JdAqs-unsplash.jpg"
 	},
-	"introMsg": "I am a fullstack web developer. With Technology, possibilities are endless.",
-	"expertise": [
-		{ "id": 1, "type": "Development"},
-		{ "id": 2, "type": "UX Design" },
-		{ "id": 3, "type": "Graphics Design"}
-	],
 	"contact": [
 		{ "id": 1, "type": "Phone & Whatsapp", "line": "09020951797" },
 		{ "id": 2, "type": "Email", "line": "irabeny89@gmail.com" },
@@ -43,5 +13,41 @@
 			"line": "https://linkedin.com/in/ernest-irabor-085486183"
 		},
 		{ "id": 4, "type": "Github", "line": "https://github.com/irabeny89" }
-	]
+	],
+	"dev": {
+		"type": "Development",
+		"tools": "JavaScript, HTML, CSS",
+		"images": [
+			{ "id": 1, "src": "/images/dev/CVwebapp.png" },
+			{ "id": 2, "src": "/images/dev/lotto-game.png" },
+			{ "id": 3, "src": "/images/dev/dukadanweb.png" },
+			{ "id": 4, "src": "/images/dev/simple-todolist.png" },
+			{ "id": 5, "src": "/images/dev/express-notesapp.png" },
+			{ "id": 6, "src": "/images/dev/vanilla-todo-app.png" },
+			{ "id": 7, "src": "/images/dev/guess-game.png" }
+		]
+	},
+	"ux": {
+		"type": "UX Design",
+		"tools": "Photoshop, Adobe XD",
+		"images": [
+			{ "id": 1, "src": "/images/ux/Adobe XD 01-Jan-21 7_06_50 PM.png" },
+			{ "id": 2, "src": "/images/ux/portfolio.png" },
+			{ "id": 3, "src": "/images/ux/simple-calculator.png" },
+			{ "id": 4, "src": "/images/ux/todoapp initial design.png" }
+		]
+	},
+	"gfx": {
+		"type": "Graphics Design",
+		"tools": "Photoshop, Medibang",
+		"images": [
+			{ "id": 1, "src": "/images/gfx/1535727414912.jpg" },
+			{ "id": 2, "src": "/images/gfx/job11d.jpg" },
+			{ "id": 3, "src": "/images/gfx/aliko.jpg" },
+			{ "id": 4, "src": "/images/gfx/job1k.jpg" },
+			{ "id": 5, "src": "/images/gfx/'job1k.jpg'" },
+			{ "id": 6, "src": "/images/gfx/shigo.jpg" },
+			{ "id": 7, "src": "/images/gfx/IMG_20170731_183808.jpg" }
+		]
+	}
 }

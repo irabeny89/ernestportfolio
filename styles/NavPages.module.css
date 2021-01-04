@@ -1,0 +1,9 @@
+.navpages span {
+  font-weight: normal;
+  font-size: large;
+}
+.navpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

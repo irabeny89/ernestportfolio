@@ -1,12 +1,25 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  background-color: #0D0974;
-  color: white;
-  padding: 0 .5rem;
-  height: 50px;
 }
-.navbar h1 {
-  font-size: 25px;
+.navbar > h4 {
+  padding: .5rem;
+  border: 1px solid black;
+  flex: 1;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.navbar h4:first-of-type {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.navbar h4:last-of-type {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.navbar > h4:active {
+  color: red;
 }

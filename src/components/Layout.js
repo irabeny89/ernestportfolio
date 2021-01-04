@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import NavBar from './NavBar'
+import Header from './header'
 import Footer from './Footer'
 import { MenuContext } from './MenuProvider'
 import MenuList from './MenuList'
@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   const { isShowing } = useContext(MenuContext)
   return (
     <>
-      <NavBar />
+      <Header />
       {isShowing && <MenuList />}
       {children}
       <Footer />
