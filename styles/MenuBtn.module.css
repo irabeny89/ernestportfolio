@@ -1,0 +1,7 @@
+.menuBtn {
+  color: gold;
+  transition: all 50ms;
+}
+.menuBtn:active {
+  color: red;
+}
