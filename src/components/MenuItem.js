@@ -4,7 +4,7 @@ import {
   FaCogs, FaGithub, FaLinkedin, FaPaintBrush, FaPencilRuler, FaPhone
 } from 'react-icons/fa'
 
-const ListItem = ({ type }) => {
+const MenuItem = ({ type }) => {
   if (type === "Development") return (
     <li><FaCogs size={25} /> {type}</li>
   )
@@ -28,4 +28,4 @@ const ListItem = ({ type }) => {
   )
 }
 
-export default ListItem
+export default MenuItem
