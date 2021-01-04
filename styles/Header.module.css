@@ -4,8 +4,10 @@
   align-items: center;
   background-color: #0D0974;
   color: white;
-  padding: 0 .5rem;
   height: 50px;
+  position: fixed;
+  z-index: 3;
+  width: 100vw;
 }
 .header h1 {
   font-size: 25px;

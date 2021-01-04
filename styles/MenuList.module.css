@@ -8,6 +8,7 @@
   right: 0;
   opacity: .9;
   z-index: 2;
+  margin-top: 50px;
 }
 .menuList h3 {
   text-decoration: underline;
@@ -16,4 +17,9 @@
 }
 .menuList ul {
   list-style: none;
+}
+.menuList li {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
