@@ -20,6 +20,7 @@
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.navbar > h4:active {
-  color: red;
+.active {
+  color: white;
+  background-color: #63A5AA;
 }
