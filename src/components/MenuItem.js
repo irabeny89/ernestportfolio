@@ -4,7 +4,7 @@ import {
   FaCogs, FaGithub, FaLinkedin, FaPaintBrush, FaPencilRuler, FaPhone
 } from 'react-icons/fa'
 
-const MenuItem = ({ type }) => {
+const MenuItem = ({ type, line }) => {
   if (type === "Development") return (
     <li><FaCogs size={25} /> {type}</li>
   )
@@ -15,16 +15,28 @@ const MenuItem = ({ type }) => {
     <li><FaPaintBrush size={25} /> {type}</li>
   )
   if (type === "Phone & Whatsapp") return (
-    <li><FaPhone size={25} /> {type}</li>
+    <li>
+      <FaPhone size={25} /> {type}
+      <div>{line}</div>
+    </li>
   )
   if (type === "Email") return (
-    <li><CgMail size={25} /> {type}</li>
+    <li>
+      <CgMail size={25} /> {type}
+      <div>{line}</div>
+    </li>
   )
   if (type === "Linkedin") return (
-    <li><FaLinkedin size={25} /> {type}</li>
+    <li>
+      <FaLinkedin size={25} /> {type}
+      <div>{line}</div>
+    </li>
   )
   if (type === "Github") return (
-    <li><FaGithub size={25} /> {type}</li>
+    <li>
+      <FaGithub size={25} /> {type}
+      <div>{line}</div>
+    </li>
   )
 }
 

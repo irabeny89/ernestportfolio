@@ -13,7 +13,7 @@ const MenuList = _ => {
       </ul>
       <h3>My Contacts</h3>
       <ul>
-        {contact.map(({ id, type }) => <MenuItem key={id} type={type} />)}
+        {contact.map(item => <MenuItem key={item.id} {...item} />)}
       </ul>
     </div>
   )

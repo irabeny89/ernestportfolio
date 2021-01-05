@@ -16,14 +16,14 @@
 	],
 	"dev": {
 		"type": "Development",
-		"tools": "JavaScript, HTML, CSS",
+		"tools": "JavaScript, HTML, CSS, React, Next, Node, Express, Git, Github, Ejs, Handlebars, GraphQL, RESTful API, SQL, NoSQL, etc",
 		"images": [
-			{ "id": 1, "src": "/images/dev/CVwebapp.png" },
-			{ "id": 2, "src": "/images/dev/lotto-game.png" },
-			{ "id": 3, "src": "/images/dev/dukadanweb.png" },
+			{ "id": 1, "src": "/images/dev/dukadanweb.png" },
+			{ "id": 2, "src": "/images/dev/express-notesapp.png" },
+			{ "id": 3, "src": "/images/dev/vanilla-todo-app.png" },
 			{ "id": 4, "src": "/images/dev/simple-todolist.png" },
-			{ "id": 5, "src": "/images/dev/express-notesapp.png" },
-			{ "id": 6, "src": "/images/dev/vanilla-todo-app.png" },
+			{ "id": 5, "src": "/images/dev/lotto-game.png" },
+			{ "id": 6, "src": "/images/dev/CVwebapp.png" },
 			{ "id": 7, "src": "/images/dev/guess-game.png" }
 		]
 	},

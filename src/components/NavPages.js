@@ -7,7 +7,6 @@ import { FaTools } from 'react-icons/fa'
 import { dev, ux, gfx } from '../../data/siteData.json'
 
 const NavPages = ({isDevClicked, isUxClicked, isGfxClicked}) => {
-  console.log(isDevClicked, isUxClicked, isGfxClicked)
   return (
     isDevClicked && 
     <div className={styles.navpages}>
