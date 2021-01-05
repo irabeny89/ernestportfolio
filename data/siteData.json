@@ -1,19 +1,30 @@
 {
-	"introMsg": "Hi, I am a fullstack web developer. I do design (wireframe, UX etc) and development (frontend and backend).",
-	"eg": "E.g Ecommerces, Blogs, Marketing pages and mobile equivalence etc",
 	"index": {
-		"imgSrc": "/images/altumcode-dC6Pb2JdAqs-unsplash.jpg"
+		"id": 1,
+		"p1": "Hi, I am a fullstack web developer.",
+		"imgSrc": "/images/altumcode-dC6Pb2JdAqs-unsplash.jpg",
+		"alt": "Intro image"
 	},
-	"contact": [
-		{ "id": 1, "type": "Phone & Whatsapp", "line": "09020951797" },
-		{ "id": 2, "type": "Email", "line": "irabeny89@gmail.com" },
+	"expertise": [
 		{
-			"id": 3,
-			"type": "Linkedin",
-			"line": "https://linkedin.com/in/ernest-irabor-085486183"
+			"id": 1,
+			"field": "Frontend",
+			"description": "UI/UX Design & Development",
+			"list": ["Wireframing", "Protoyping", "UI Coding", "QA Testing"]
 		},
-		{ "id": 4, "type": "Github", "line": "https://github.com/irabeny89" }
+		{
+			"id": 2,
+			"field": "Backend",
+			"description": "Backend Development",
+			"list": [
+				"HTTP Server",
+				"Databases administration",
+				"CI/CD implementation",
+				"QA Testing"
+			]
+		}
 	],
+	"examples": ["Ecommerce", "Marketing Page", "Blogging App", "Games"],
 	"dev": {
 		"type": "Development",
 		"tools": "JavaScript, HTML, CSS, React, Next, Node, Express, Git, Github, Ejs, Handlebars, GraphQL, RESTful API, SQL, NoSQL, Jest, Mocha, Autocannon, Travis, Github Actions etc",
@@ -119,5 +130,15 @@
 				"tech": "Medibang"
 			}
 		]
-	}
-}
+	},
+	"contact": [
+		{ "id": 1, "type": "Phone & Whatsapp", "line": "09020951797" },
+		{ "id": 2, "type": "Email", "line": "irabeny89@gmail.com" },
+		{
+			"id": 3,
+			"type": "Linkedin",
+			"line": "https://linkedin.com/in/ernest-irabor-085486183"
+		},
+		{ "id": 4, "type": "Github", "line": "https://github.com/irabeny89" }
+	]
+}	

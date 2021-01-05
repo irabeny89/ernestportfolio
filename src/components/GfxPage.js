@@ -9,10 +9,10 @@ const GfxPage = ({projects, type, tools}) =>
     <h4><FaTools /> Tools used: <span>{tools}</span></h4>
     <div className={styles.navpage}>
       {projects.map(({id, imgSrc, tech}) => 
-        <>
-          <GfxImage key={id} src={imgSrc} />
+        <div key={id}>
+          <GfxImage src={imgSrc} />
           <p>Tech: {tech}</p>
-        </>
+        </div>
       )}
     </div>
   </>

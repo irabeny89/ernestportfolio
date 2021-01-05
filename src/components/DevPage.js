@@ -9,12 +9,12 @@ const DevPage = ({projects, type, tools}) =>
     <h4><FaTools /> Tools used: <span>{tools}</span></h4>
     <div className={styles.navpage}>
       {projects.map(({id, imgSrc, description, website, tech}) => 
-        <>
+        <div key={id}>
           <h3>{description}</h3>
           <p>Tech: {tech}</p>
-          <DevImage key={id} src={imgSrc} />
-          <p>Link: <a href={`${website}`}>{website}</a></p>
-        </>
+          <a href={`${website}`}><DevImage key={id} src={imgSrc} /></a>
+          <p><a href={`${website}`}>{website}</a></p>
+        </div>
       )}
     </div>
   </>

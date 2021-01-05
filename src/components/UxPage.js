@@ -9,11 +9,11 @@ const UxPage = ({projects, type, tools}) =>
     <h4><FaTools /> Tools used: <span>{tools}</span></h4>
     <div className={styles.navpage}>
       {projects.map(({id, imgSrc, description, tech}) => 
-        <>
+        <div key={id}>
           <h3>{description}</h3>
-          <UxImage key={id} src={imgSrc} />
+          <UxImage src={imgSrc} />
           <p>Tool: {tech}</p>
-        </>
+        </div>
       )}
     </div>
   </>

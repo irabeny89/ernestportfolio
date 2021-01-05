@@ -1,7 +1,6 @@
 .menuBtn {
-  color: aquamarine;
-  transition: all 50ms;
+  color: red;
 }
 .menuBtn:active {
-  color: red;
+  color: white;
 }
