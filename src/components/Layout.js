@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Header from './header'
+import Header from './Header'
 import Footer from './Footer'
 import { MenuContext } from './MenuProvider'
 import MenuList from './MenuList'
