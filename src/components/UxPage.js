@@ -1,10 +1,21 @@
-import Image from 'next/image'
 import React from 'react'
-import styles from '../../styles/NavPage.module.css'
+import UxImage from './UxImage'
+import { FaTools } from 'react-icons/fa'
+import styles from '../../styles/NavPages.module.css'
 
-const UxPage = ({src="/favicon.ico"}) => 
-  <div className={styles.navpage}>
-    <Image src={src} width="400" height="250" />
-  </div>
+const UxPage = ({projects, type, tools}) => 
+  <>
+    <h3>{type}</h3>
+    <h4><FaTools /> Tools used: <span>{tools}</span></h4>
+    <div className={styles.navpage}>
+      {projects.map(({id, imgSrc, description, tech}) => 
+        <>
+          <h3>{description}</h3>
+          <UxImage key={id} src={imgSrc} />
+          <p>Tool: {tech}</p>
+        </>
+      )}
+    </div>
+  </>
 
 export default UxPage

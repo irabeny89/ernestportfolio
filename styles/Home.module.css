@@ -1,11 +1,8 @@
 .home {
-  font-size: x-large;
+  font-size: large;
   padding: 50px 10px 20px;
 }
-.home h1 {
-  font-size: xx-large;
-}
-.home h1 {
+.home h2 {
   display: flex;
   align-items: center;
 }

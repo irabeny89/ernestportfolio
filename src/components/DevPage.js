@@ -1,10 +1,22 @@
-import Image from 'next/image'
 import React from 'react'
-import styles from '../../styles/NavPage.module.css'
+import DevImage from './DevImage'
+import { FaTools } from 'react-icons/fa'
+import styles from '../../styles/NavPages.module.css'
 
-const DevPage = ({src="/favicon.ico"}) => 
-  <div className={styles.navpage}>
-    <Image src={src} width="180" height="300" />
-  </div>
+const DevPage = ({projects, type, tools}) => 
+  <>
+    <h3>{type}</h3>
+    <h4><FaTools /> Tools used: <span>{tools}</span></h4>
+    <div className={styles.navpage}>
+      {projects.map(({id, imgSrc, description, website, tech}) => 
+        <>
+          <h3>{description}</h3>
+          <p>Tech: {tech}</p>
+          <DevImage key={id} src={imgSrc} />
+          <p>Link: <a href={`${website}`}>{website}</a></p>
+        </>
+      )}
+    </div>
+  </>
 
 export default DevPage

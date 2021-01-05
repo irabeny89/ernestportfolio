@@ -12,11 +12,11 @@ const Home = _ =>
       </Head>
 
       <div className={styles.home}>
-        <Image src={index.src} width="345" 
+        <Image src={index.imgSrc} width="345" 
           height="180" layout="responsive" />
         <p>{introMsg}</p>
         <p>{eg}</p>
-        <h1><MdWork size={40} /> My Expertise</h1>
+        <h2><MdWork size={40} /> My Expertise</h2>
         <NavBar />
       </div>
     </>

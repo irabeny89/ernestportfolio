@@ -1,9 +1,13 @@
-.navpages span {
-  font-weight: normal;
-  font-size: large;
-}
 .navpage {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.navpage p {
+  margin-block-start: 0;
+  margin-block-end: 2rem;
+}
+.navpages span {
+  font-weight: normal;
+  font-size: large;
 }
