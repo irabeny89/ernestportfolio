@@ -10,8 +10,8 @@ const FooterContact = ({ type, line }) =>
   type.toLowerCase().includes("email") &&
     <a href={`mailto:${line}`}><CgMail size="20" /></a> ||
   type.toLowerCase().includes("linkedin") &&
-    <a href={`${line}`}><FaLinkedin size="20" /></a> ||
+    <a href={line}><FaLinkedin size="20" /></a> ||
   type.toLowerCase().includes("github") &&
-    <a href={`${line}`}><FaGithub size="20" /></a>
+    <a href={line}><FaGithub size="20" /></a>
 
 export default FooterContact

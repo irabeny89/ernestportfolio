@@ -16,27 +16,21 @@ const MenuItem = ({ type, line }) => {
   )
   if (type === "Phone & Whatsapp") return (
     <li>
-      <FaPhone size={25} /> {type}
-      <div>{line}</div>
+      <a href={`tel:${line}`}><FaPhone size={25} /> {type}<div>{line}</div></a>
     </li>
   )
   if (type === "Email") return (
     <li>
-      <CgMail size={25} /> {type}
-      <div>{line}</div>
+      <a href={`mailto:${line}`}>
+        <CgMail size={25} /> {type}<div>{line}</div>
+      </a>
     </li>
   )
   if (type === "Linkedin") return (
-    <li>
-      <FaLinkedin size={25} /> {type}
-      <div>{line}</div>
-    </li>
+    <li><a href={line}><FaLinkedin size={25} /> {type}<div>{line}</div></a></li>
   )
   if (type === "Github") return (
-    <li>
-      <FaGithub size={25} /> {type}
-      <div>{line}</div>
-    </li>
+    <li><a href={line}><FaGithub size={25} /> {type}<div>{line}</div></a></li>
   )
 }
 
