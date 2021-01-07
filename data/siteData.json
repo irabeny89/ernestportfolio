@@ -232,12 +232,84 @@
 					"src": "/images/gfx/shigo.jpg",
 					"alt": "project"
 				},
-				"tech": "Medibang"
+				"tech": "Photoshop"
 			},
 			{
 				"id": 7,
 				"image": {
 					"src": "/images/gfx/IMG_20170731_183808.jpg",
+					"alt": "project"
+				},
+				"tech": "Medibang"
+			},
+			{
+				"id": 8,
+				"image": {
+					"src": "/images/gfx/SmartSelectImage_2019-05-06-11-31-20.png",
+					"alt": "project"
+				},
+				"tech": "Medibang"
+			},
+			{
+				"id": 9,
+				"image": {
+					"src": "/images/gfx/SmartSelectImage_2019-05-06-11-43-41-1.png",
+					"alt": "project"
+				},
+				"tech": "Medibang"
+			},
+			{
+				"id": 10,
+				"image": {
+					"src": "/images/gfx/SmartSelectImage_2019-05-06-12-04-17.png",
+					"alt": "project"
+				},
+				"tech": "Medibang"
+			},
+			{
+				"id": 11,
+				"image": {
+					"src": "/images/gfx/SmartSelectImage_2019-05-06-12-06-37.png",
+					"alt": "project"
+				},
+				"tech": "Medibang"
+			},
+			{
+				"id": 12,
+				"image": {
+					"src": "/images/gfx/SmartSelectImage_2019-05-06-12-07-37.png",
+					"alt": "project"
+				},
+				"tech": "Medibang"
+			},
+			{
+				"id": 13,
+				"image": {
+					"src": "/images/gfx/SmartSelectImage_2019-05-07-11-42-17.png",
+					"alt": "project"
+				},
+				"tech": "Medibang"
+			},
+			{
+				"id": 14,
+				"image": {
+					"src": "/images/gfx/SmartSelectImage_2020-05-02-20-16-22.png",
+					"alt": "project"
+				},
+				"tech": "Medibang"
+			},
+			{
+				"id": 15,
+				"image": {
+					"src": "/images/gfx/SmartSelectImage_2020-07-01-16-12-35.png",
+					"alt": "project"
+				},
+				"tech": "Medibang"
+			},
+			{
+				"id": 16,
+				"image": {
+					"src": "/images/gfx/SmartSelectImage_2020-08-01-19-57-58.png",
 					"alt": "project"
 				},
 				"tech": "Medibang"
