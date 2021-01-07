@@ -1,11 +1,16 @@
 import '../styles/globals.css'
 import Layout from '../src/components/Layout'
 import MenuProvider from '../src/components/MenuProvider'
+import NavMenuProvider from '../src/components/NavMenuProvider'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <MenuProvider><Layout><Component {...pageProps} /></Layout></MenuProvider>
+      <NavMenuProvider>
+        <MenuProvider>
+          <Layout><Component {...pageProps} /></Layout>
+        </MenuProvider>
+      </NavMenuProvider>
     </>
   )
 }

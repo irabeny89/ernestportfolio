@@ -1,31 +1,10 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
 import NavBar from './NavBar'
 import NavSections from './NavSections'
+import { NavMenuContext } from '../components/NavMenuProvider'
 
 const Navs = _ => {
-  const [isDevClicked, setIsDevClicked] = useState(true)
-  const [isUxClicked, setIsUxClicked] = useState(false)
-  const [isGfxClicked, setIsGfxClicked] = useState(false)
-  const pageFlags = { isDevClicked, isUxClicked, isGfxClicked }
-
-  const clickHandler = e => {
-    if (e.target.id === "dev") {
-      setIsDevClicked(true)
-      setIsUxClicked(false)
-      setIsGfxClicked(false)
-    }
-    if (e.target.id === "ux") {
-      setIsDevClicked(false)
-      setIsUxClicked(true)
-      setIsGfxClicked(false)
-    }
-    if (e.target.id === "gfx") {
-      setIsDevClicked(false)
-      setIsUxClicked(false)
-      setIsGfxClicked(true)
-    }
-  }
-
+  const { pageFlags, clickHandler } = useContext(NavMenuContext)
   return (
     <>
       <NavBar clickCallback={clickHandler} {...pageFlags} />
