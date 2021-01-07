@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Field = ({ id, description, list }) =>
+const Field = ({ id, description, tasks }) =>
   <div key={id}>
     <h3>{description}</h3>
-    <ul>{list.map(task => <li key={task}>{task}</li>)}</ul>
+    <ul>{tasks.map(task => <li key={task}>{task}</li>)}</ul>
   </div>
 
 export default Field

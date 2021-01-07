@@ -2,8 +2,8 @@ import React from 'react'
 import Field from './Field'
 
 const Expertise = ({ expertise }) =>
-  <div>
-    {expertise.map(field => <div key={field.id}><Field {...field} /></div>)}
-  </div>
+  <ol>
+    {expertise.map(field => <li key={field.id}><Field {...field} /></li>)}
+  </ol>
 
 export default Expertise

@@ -1,132 +1,245 @@
 {
 	"index": {
 		"id": 1,
-		"p1": "Hi, I am a fullstack web developer.",
-		"imgSrc": "/images/altumcode-dC6Pb2JdAqs-unsplash.jpg",
-		"alt": "Intro image"
+		"p1": "Hi, I am a fullstack web developer. I build full stack applications with JavaScript.",
+		"image": {
+			"src": "/images/altumcode-dC6Pb2JdAqs-unsplash.jpg",
+			"alt": "Intro image"
+		}
 	},
 	"expertise": [
 		{
 			"id": 1,
 			"field": "Frontend",
 			"description": "UI/UX Design & Development",
-			"list": ["Wireframing", "Protoyping", "UI Coding", "QA Testing"]
+			"tasks": [
+				"UI Wireframing",
+				"UI Protoyping",
+				"UI Coding",
+				"SEO",
+				"Optimisations",
+				"QA Testing",
+				"Performance improvements"
+			]
 		},
 		{
 			"id": 2,
 			"field": "Backend",
 			"description": "Backend Development",
-			"list": [
+			"tasks": [
 				"HTTP Server",
 				"Databases administration",
+				"Authentication & authorization",
+				"Online payment integration",
 				"CI/CD implementation",
-				"QA Testing"
+				"Optimisations",
+				"QA Testing",
+				"Performance improvements"
+			]
+		},
+		{
+			"id": 3,
+			"field": "Graphics Design",
+			"description": "Graphics Design",
+			"tasks": [
+				"Cartoon Images",
+				"Logo Design",
+				"Flyers Design",
+				"Cover Design"
 			]
 		}
 	],
+	"principles": ["DRY", "SOLID", "KISS", "YAGNI"],
 	"examples": ["Ecommerce", "Marketing Page", "Blogging App", "Games"],
 	"dev": {
-		"type": "Development",
-		"tools": "JavaScript, HTML, CSS, React, Next, Node, Express, Git, Github, Ejs, Handlebars, GraphQL, RESTful API, SQL, NoSQL, Jest, Mocha, Autocannon, Travis, Github Actions etc",
+		"type": "UI Development",
+		"tools": [
+			"JavaScript",
+			"HTML",
+			"CSS",
+			"React",
+			"Next",
+			"Node",
+			"Express",
+			"Git",
+			"Github",
+			"Handlebars",
+			"RESTful API",
+			"Autocannon"
+		],
 		"projects": [
 			{
 				"id": 1,
 				"description": "Marketing Page Website",
-				"imgSrc": "/images/dev/dukadanweb.png",
+				"image": {
+					"src": "/images/dev/dukadanweb.png",
+					"alt": "project"
+				},
 				"website": "https://dukadanweb.vercel.app",
 				"tech": "Bootstrap, Nextjs, Reactjs"
 			},
 			{
 				"id": 2,
 				"description": "Server Side Note App",
-				"imgSrc": "/images/dev/express-notesapp.png",
+				"image": {
+					"src": "/images/dev/express-notesapp.png",
+					"alt": "project"
+				},
 				"website": "https://servernoteapp.herokuapp.com/",
 				"tech": "Bootstrap, Expressjs, Handlebars"
 			},
 			{
 				"id": 3,
 				"description": "Vanilla Todo Website",
-				"imgSrc": "/images/dev/vanilla-todo-app.png",
+				"image": {
+					"src": "/images/dev/vanilla-todo-app.png",
+					"alt": "project"
+				},
 				"website": "https://eny-vanilla-todo.vercel.app/imgSrc/todo-tester.html",
 				"tech": "HTML, CSS, JS"
 			},
 			{
 				"id": 4,
 				"description": "React Todo App",
-				"imgSrc": "/images/dev/simple-todolist.png",
+				"image": {
+					"src": "/images/dev/simple-todolist.png",
+					"alt": "project"
+				},
 				"website": "https://eny-todo.vercel.app/",
 				"tech": "Bootstrap, Reactjs"
 			},
 			{
 				"id": 5,
 				"description": "Vanilla Lotto Website",
-				"imgSrc": "/images/dev/lotto-game.png",
+				"image": {
+					"src": "/images/dev/lotto-game.png",
+					"alt": "project"
+				},
 				"website": "",
 				"tech": "HTML, CSS, JS"
 			},
 			{
 				"id": 6,
 				"description": "React CV App",
-				"imgSrc": "/images/dev/CVwebapp.png",
+				"image": {
+					"src": "/images/dev/CVwebapp.png",
+					"alt": "project"
+				},
 				"website": "",
 				"tech": "Reactjs"
 			},
 			{
 				"id": 7,
 				"description": "Vanilla Guess Game Website",
-				"imgSrc": "/images/dev/guess-game.png",
+				"image": {
+					"src": "/images/dev/guess-game.png",
+					"alt": "project"
+				},
 				"website": "",
 				"tech": "HTML, CSS, JS"
 			}
 		]
 	},
 	"ux": {
-		"type": "UX Design",
-		"tools": "Photoshop, Adobe XD",
+		"type": "UI/UX Design",
+		"tools": ["Photoshop", "Adobe XD"],
 		"projects": [
 			{
 				"id": 1,
 				"description": "Marketing Page Design",
-				"imgSrc": "/images/ux/Adobe XD 01-Jan-21 7_06_50 PM.png",
+				"image": {
+					"src": "/images/ux/Adobe XD 01-Jan-21 7_06_50 PM.png",
+					"alt": "project"
+				},
 				"tech": "Adobe XD"
 			},
 			{
 				"id": 2,
 				"description": "Portfolio Website Design",
-				"imgSrc": "/images/ux/portfolio.png",
+				"image": {
+					"src": "/images/ux/portfolio.png",
+					"alt": "project"
+				},
 				"tech": "Adobe XD"
 			},
 			{
 				"id": 3,
 				"description": "Simple Calculator Design",
-				"imgSrc": "/images/ux/simple-calculator.png",
+				"image": {
+					"src": "/images/ux/simple-calculator.png",
+					"alt": "project"
+				},
 				"tech": "Adobe XD"
 			},
 			{
 				"id": 4,
 				"description": "Todo App Design",
-				"imgSrc": "/images/ux/todoapp initial design.png",
+				"image": {
+					"src": "/images/ux/todoapp initial design.png",
+					"alt": "project"
+				},
 				"tech": "Adobe XD"
 			}
 		]
 	},
 	"gfx": {
 		"type": "Graphics Design",
-		"tools": "Photoshop, Medibang",
+		"tools": ["Photoshop", "Medibang"],
 		"projects": [
 			{
 				"id": 1,
-				"imgSrc": "/images/gfx/1535727414912.jpg",
+				"image": {
+					"src": "/images/gfx/1535727414912.jpg",
+					"alt": "project"
+				},
 				"tech": "Photoshop"
 			},
-			{ "id": 2, "imgSrc": "/images/gfx/job11d.jpg", "tech": "Photoshop" },
-			{ "id": 3, "imgSrc": "/images/gfx/aliko.jpg", "tech": "Photoshop" },
-			{ "id": 4, "imgSrc": "/images/gfx/job1k.jpg", "tech": "Photoshop" },
-			{ "id": 5, "imgSrc": "/images/gfx/DJ HM.jpg", "tech": "Photoshop" },
-			{ "id": 6, "imgSrc": "/images/gfx/shigo.jpg", "tech": "Medibang" },
+			{
+				"id": 2,
+				"image": {
+					"src": "/images/gfx/job11d.jpg",
+					"alt": "project"
+				},
+				"tech": "Photoshop"
+			},
+			{
+				"id": 3,
+				"image": {
+					"src": "/images/gfx/aliko.jpg",
+					"alt": "project"
+				},
+				"tech": "Photoshop"
+			},
+			{
+				"id": 4,
+				"image": {
+					"src": "/images/gfx/job1k.jpg",
+					"alt": "project"
+				},
+				"tech": "Photoshop"
+			},
+			{
+				"id": 5,
+				"image": {
+					"src": "/images/gfx/DJ HM.jpg",
+					"alt": "project"
+				},
+				"tech": "Photoshop"
+			},
+			{
+				"id": 6,
+				"image": {
+					"src": "/images/gfx/shigo.jpg",
+					"alt": "project"
+				},
+				"tech": "Medibang"
+			},
 			{
 				"id": 7,
-				"imgSrc": "/images/gfx/IMG_20170731_183808.jpg",
+				"image": {
+					"src": "/images/gfx/IMG_20170731_183808.jpg",
+					"alt": "project"
+				},
 				"tech": "Medibang"
 			}
 		]
@@ -141,4 +254,4 @@
 		},
 		{ "id": 4, "type": "Github", "line": "https://github.com/irabeny89" }
 	]
-}	
+}

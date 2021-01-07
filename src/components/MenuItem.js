@@ -4,8 +4,8 @@ import {
   FaCogs, FaGithub, FaLinkedin, FaPaintBrush, FaPencilRuler, FaPhone
 } from 'react-icons/fa'
 
-const MenuItem = ({ type, line }) => {
-  if (type === "Development") return (
+const MenuItem = ({ field, line }) => {
+  if (field === "Frontend") return (
     <li><FaCogs size={25} /> {type}</li>
   )
   if (type === "UX Design") return (
