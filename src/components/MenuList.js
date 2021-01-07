@@ -1,8 +1,9 @@
 import React from 'react'
 import ExpertiseList from './ExpertiseList'
-import { dev, ux, gfx, contact } from '../../data/siteData.json'
+import { dev, ux, gfx, contact, cv } from '../../data/siteData.json'
 import styles from '../../styles/MenuList.module.css'
 import ContactList from './ContactList'
+import { FaFileDownload, FaRegFilePdf } from 'react-icons/fa'
 
 const MenuList = _ => {
   const types = [dev.type, ux.type, gfx.type]
@@ -12,6 +13,7 @@ const MenuList = _ => {
       <ExpertiseList types={types} />
       <h3>My Contacts</h3>
       <ContactList contact={contact} />
+      <p><a href={cv}><FaRegFilePdf size="25" /> Resume/CV</a></p>
     </div>
   )
 }
