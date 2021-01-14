@@ -4,3 +4,26 @@
 .home h2 {
   display: flex;
 }
+.details {
+  background-color: midnightblue; 
+  color: whitesmoke;
+  height: 50rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .main {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .image {
+    display: none;
+  }
+  .introParagraph {
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 2rem;
+  }
+}

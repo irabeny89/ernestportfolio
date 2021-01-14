@@ -6,10 +6,10 @@ import { NavMenuContext } from '../components/NavMenuProvider'
 const Navs = _ => {
   const { pageFlags, clickHandler } = useContext(NavMenuContext)
   return (
-    <>
+    <div>
       <NavBar clickCallback={clickHandler} {...pageFlags} />
       <NavSections {...pageFlags} />
-    </>
+    </div>
   )
 }
 

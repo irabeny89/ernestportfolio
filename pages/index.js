@@ -13,14 +13,20 @@ const Home = _ =>
     </Head>
 
     <div className={styles.home}>
-      <Image alt={index.image.alt} src={index.image.src} width="345"
-        height="180" layout="responsive" />
-      <p>{index.p1}</p>
-      <h2><MdWork size={33} /> My Expertise</h2>
-      <Expertise expertise={expertise} />
-      <p><b>Coding principles</b>: {principles.join(', ')}</p>
-      <p><b>E.g</b> {examples.join(', ')}</p>
-      <Navs />
+      <div className={styles.image}>
+        <Image alt={index.image.alt} src={index.image.src} width="345"
+          height="180" layout="responsive" />
+      </div>
+      <p className={styles.introParagraph}>{index.p1}</p>
+      <div className={styles.main}>
+        <div className={styles.details}>
+          <h2><MdWork size={33} /> My Expertise</h2>
+          <Expertise expertise={expertise} />
+          <p><b>Coding principles</b>: {principles.join(', ')}</p>
+          <p><b>E.g</b> {examples.join(', ')}</p>
+        </div>
+        <Navs />
+      </div>
     </div>
   </>
 
