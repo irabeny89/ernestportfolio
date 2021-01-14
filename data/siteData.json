@@ -69,6 +69,16 @@
 		],
 		"projects": [
 			{
+				"id": 8,
+				"description": "Dashboard",
+				"image": {
+					"src": "/images/dev/dashboard.png",
+					"alt": "project"
+				},
+				"website": "https://dashboard-navy-ten.vercel.app",
+				"tech": "Nextjs, Reactjs"
+			},
+			{
 				"id": 1,
 				"description": "Marketing Page Website",
 				"image": {
