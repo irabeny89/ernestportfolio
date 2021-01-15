@@ -5,7 +5,7 @@ import { MenuContext } from './MenuProvider'
 import MenuList from './MenuList'
 
 const Layout = ({ children }) => {
-  const { isShowing } = useContext(MenuContext)
+  const { menuBtnProps: { isShowing } } = useContext(MenuContext)
   return (
     <>
       <Header />
