@@ -11,12 +11,12 @@ const NavMenuProvider = ({ children }) => {
   const [isGfxClicked, setIsGfxClicked] = useState(false)
 
   const clickHandler = ref => {
-    if (ref.current.id === "dev") {
+    if (ref.current.id === "dev" || ref.current.id === "_dev") {
       setIsDevClicked(true)
       setIsUxClicked(false)
       setIsGfxClicked(false)
     }
-    else if (ref.current.id === "ux") {
+    else if (ref.current.id === "ux" || ref.current.id === "_ux") {
       setIsDevClicked(false)
       setIsUxClicked(true)
       setIsGfxClicked(false)

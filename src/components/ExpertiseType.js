@@ -11,17 +11,17 @@ const ExpertiseField = ({ type }) => {
   const clickHandler = ref => {navBarClick(ref); setShowMenu(false)}
   return type === "UI Development" &&
     <a href="#dev">
-      <div onClick={_ => clickHandler(devRef)} id="dev" ref={devRef}>
+      <div onClick={_ => clickHandler(devRef)} id="_dev" ref={devRef}>
         <FaCogs size="25" /> {type}
       </div>
     </a> || type === "UI\/UX Design" &&
     <a href="#ux">
-      <div onClick={_ => clickHandler(uxRef)} id="ux" ref={uxRef}>
+      <div onClick={_ => clickHandler(uxRef)} id="_ux" ref={uxRef}>
         <FaPencilRuler size="25" /> {type}
       </div>
     </a> || type === "Graphics Design" &&
     <a href="#gfx">
-      <div onClick={_ => clickHandler(gfxRef)} id="gfx" ref={gfxRef}>
+      <div onClick={_ => clickHandler(gfxRef)} id="_gfx" ref={gfxRef}>
         <FaPaintBrush size="25" /> {type}
       </div>
     </a>
