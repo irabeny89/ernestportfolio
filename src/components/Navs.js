@@ -1,16 +1,7 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import NavBar from './NavBar'
 import NavSections from './NavSections'
-import { NavMenuContext } from '../components/NavMenuProvider'
 
-const Navs = _ => {
-  const { pageFlags, clickHandler } = useContext(NavMenuContext)
-  return (
-    <div>
-      <NavBar clickCallback={clickHandler} {...pageFlags} />
-      <NavSections {...pageFlags} />
-    </div>
-  )
-}
+const Navs = _ => <div><NavBar /><NavSections /></div>
 
 export default Navs

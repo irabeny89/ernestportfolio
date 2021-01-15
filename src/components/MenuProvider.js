@@ -5,8 +5,9 @@ export const MenuContext = createContext()
 const MenuProvider = ({ children }) => {
   const [isShowing, setShowMenu] = useState(false)
   const toggleMenu = _ => setShowMenu(!isShowing)
+  const menuBtnProps = { isShowing, setShowMenu, toggleMenu }
   return (
-    <MenuContext.Provider value={{ isShowing, toggleMenu }}>
+    <MenuContext.Provider value={menuBtnProps}>
       { children}
     </MenuContext.Provider>
   )

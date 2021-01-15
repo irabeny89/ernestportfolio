@@ -1,24 +1,30 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import styles from '../../styles/NavBar.module.css'
 import { FaCogs, FaPencilRuler, FaPaintBrush } from 'react-icons/fa'
+import { NavMenuContext } from './NavMenuProvider'
 
-const NavBar = ({ clickCallback, isDevClicked, isGfxClicked, isUxClicked }) => {
-
+const NavBar = _ => {
+  const { devRef, uxRef, gfxRef, clickHandler,
+    isDevClicked, isUxClicked, isGfxClicked } = useContext(NavMenuContext)
   return (
     <div className={styles.navbar}>
-      <h4 id="dev" className={isDevClicked ? styles.active : undefined}
-        onClick={clickCallback}>
-        <FaCogs /> Dev
-      </h4>
-      <h4 id="ux" className={isUxClicked ? styles.active : undefined}
-        onClick={clickCallback}>
-        <FaPencilRuler /> UI/UX
-      </h4>
-      <h4 id="gfx" className={isGfxClicked ? styles.active : undefined}
-        onClick={clickCallback}>
-        <FaPaintBrush /> Gfx
-      </h4>
+      <div ref={devRef} id="dev"
+        className={isDevClicked ? styles.active : undefined}
+        onClick={_ => clickHandler(devRef)}>
+        <FaCogs /><h4>Dev</h4>
+      </div>
+      <div ref={uxRef} id="ux"
+        className={isUxClicked ? styles.active : undefined}
+        onClick={_ => clickHandler(uxRef)}>
+        <FaPencilRuler /><h4>UI/UX</h4>
+      </div>
+      <div ref={gfxRef} id="gfx"
+        className={isGfxClicked ? styles.active : undefined}
+        onClick={_ => clickHandler(gfxRef)}>
+        <FaPaintBrush /><h4>Gfx</h4>
+      </div>
     </div>
   )
 }
+
 export default NavBar

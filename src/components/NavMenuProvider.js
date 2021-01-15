@@ -1,32 +1,38 @@
-import React, { useState, createContext } from 'react'
+import React, { useState, createContext, useRef } from 'react'
 
 export const NavMenuContext = createContext()
 
 const NavMenuProvider = ({ children }) => {
+  const devRef = useRef()
+  const uxRef = useRef()
+  const gfxRef = useRef()
   const [isDevClicked, setIsDevClicked] = useState(true)
   const [isUxClicked, setIsUxClicked] = useState(false)
   const [isGfxClicked, setIsGfxClicked] = useState(false)
-  const pageFlags = { isDevClicked, isUxClicked, isGfxClicked }
 
-  const clickHandler = e => {
-    if (e.target.id === "dev" || e.target.id === "dev2") {
+  const clickHandler = ref => {
+    if (ref.current.id === "dev") {
       setIsDevClicked(true)
       setIsUxClicked(false)
       setIsGfxClicked(false)
     }
-    if (e.target.id === "ux" || e.target.id === "ux2") {
+    else if (ref.current.id === "ux") {
       setIsDevClicked(false)
       setIsUxClicked(true)
       setIsGfxClicked(false)
     }
-    if (e.target.id === "gfx" || e.target.id === "gfx2") {
+    else {
       setIsDevClicked(false)
       setIsUxClicked(false)
       setIsGfxClicked(true)
     }
   }
+  const navBarProps = {
+    devRef, uxRef, gfxRef, clickHandler, isDevClicked, isUxClicked, isGfxClicked
+  }
+
   return (
-    <NavMenuContext.Provider value={{ clickHandler, pageFlags }}>
+    <NavMenuContext.Provider value={navBarProps}>
       {children}
     </NavMenuContext.Provider>
   )
