@@ -2,3 +2,11 @@
   text-align: center;
   margin: 3rem 0;
 }
+
+@media (min-width: 1024px) {
+  .devSection {
+    width: 50vw;
+    outline: 2px solid;
+    padding: 1rem;
+  }	
+}

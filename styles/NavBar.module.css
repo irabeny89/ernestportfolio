@@ -13,6 +13,10 @@
   align-items: center;
   justify-content: center;
   transition: transform 500ms;
+  cursor: pointer;
+}
+.navbar div:hover {
+  box-shadow: 0 0 1rem;
 }
 .active {
   color: white;
