@@ -17,8 +17,10 @@ const Home = _ =>
         <Image alt={homeImage.alt} src={homeImage.src} width="345"
           height="180" layout="responsive" />
       </div><br />
-      <p className={styles.introParagraph}>{bio.p1}</p>
-      <p className={styles.introParagraph}>{bio.p2}</p><br />
+      <div className={styles.introParagraph}>
+        <p>{bio.p1}</p>
+        <p>{bio.p2}</p>
+      </div>
       <div className={styles.main}>
         <div className={styles.details}>
           <h2><MdWork size={33} /> My Expertise</h2>
