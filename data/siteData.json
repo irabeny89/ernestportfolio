@@ -1,17 +1,17 @@
 {
-	"index": {
-		"id": 1,
-		"p1": "Hi, I am a fullstack web developer. I build full stack applications with JavaScript.",
-		"image": {
-			"src": "/images/altumcode-dC6Pb2JdAqs-unsplash.jpg",
-			"alt": "Intro image"
-		}
+	"bio": {
+		"p1": "Hi, I am a fullstack web and mobile developer. I build full stack applications with JavaScript(JS).",
+		"p2": "I like working with Reactjs at the frontend and Nodejs at the backend and I also use Nextjs mainly for SEO, SSG & SSR. User Experience design with AdobeXd. CI/CD pipeline with Github Actions. Docker for containerization. Testing with Jest and React Testing Libraries."
+	},
+	"homeImage": {
+		"src": "/images/altumcode-dC6Pb2JdAqs-unsplash.jpg",
+		"alt": "Intro image"
 	},
 	"expertise": [
 		{
 			"id": 1,
 			"field": "Frontend",
-			"description": "UI/UX Design & Development",
+			"title": "UI/UX Design & Development",
 			"tasks": [
 				"UI Wireframing",
 				"UI Protoyping",
@@ -25,12 +25,12 @@
 		{
 			"id": 2,
 			"field": "Backend",
-			"description": "Backend Development",
+			"title": "Backend Development",
 			"tasks": [
 				"HTTP Server",
 				"Databases administration",
 				"Authentication & authorization",
-				"Online payment integration",
+				"Online payment gateway integration",
 				"CI/CD implementation",
 				"Optimisations",
 				"QA Testing",
@@ -40,7 +40,7 @@
 		{
 			"id": 3,
 			"field": "Graphics Design",
-			"description": "Graphics Design",
+			"title": "Graphics Design",
 			"tasks": [
 				"Cartoon Images",
 				"Logo Design",
@@ -50,9 +50,8 @@
 		}
 	],
 	"principles": ["DRY", "SOLID", "KISS", "YAGNI"],
-	"examples": ["Ecommerce", "Marketing Page", "Blogging App", "Games"],
 	"dev": {
-		"type": "UI Development",
+		"type": "UI Development Projects",
 		"tools": [
 			"JavaScript",
 			"HTML",
@@ -69,8 +68,12 @@
 		],
 		"projects": [
 			{
-				"id": 8,
-				"description": "Dashboard",
+				"id": 5,
+				"title": "Dashboard",
+				"description": {
+					"p1": "This app uses https://randomuser.me API for random users data. And the interface is designed to look smart and presentable using Nextjs and Reactjs.",
+					"p2": "It could be implemented for a database or any remote storage that has a list of users and needs to display them in a smart way like this."
+				},
 				"image": {
 					"src": "/images/dev/dashboard.png",
 					"alt": "project"
@@ -80,7 +83,11 @@
 			},
 			{
 				"id": 1,
-				"description": "Marketing Page Website",
+				"title": "Marketing Page Website",
+				"description": {
+					"p1": "This is a simplistic single page application built with Reactjs and Nextjs for a business with few navigation pages and a modal form page for user inputs.",
+					"p2": "There is room for improvement as it is still work in progress at the moment."
+				},
 				"image": {
 					"src": "/images/dev/dukadanweb.png",
 					"alt": "project"
@@ -90,7 +97,11 @@
 			},
 			{
 				"id": 2,
-				"description": "Server Side Note App",
+				"title": "Server Side Note App",
+				"description": {
+					"p1": "This is a Note taking app built Nodejs framework Expressjs, and handlebars styled with Bootstrap as the view templating engine.",
+					"p2": "There is still room for improvements like data persistence and authentication, authorization and encryption."
+				},
 				"image": {
 					"src": "/images/dev/express-notesapp.png",
 					"alt": "project"
@@ -100,7 +111,11 @@
 			},
 			{
 				"id": 3,
-				"description": "Vanilla Todo Website",
+				"title": "Vanilla Todo Website",
+				"description": {
+					"p1": "This was built using pure vanilla JavaScript, HTML5 and CSS3 only. No framework or library.",
+					"p2": "The app is a simple todo app like every other todo app that takes note of todo entries and can also delete entries  as well. It could be improved with data persistence."
+				},
 				"image": {
 					"src": "/images/dev/vanilla-todo-app.png",
 					"alt": "project"
@@ -110,48 +125,22 @@
 			},
 			{
 				"id": 4,
-				"description": "React Todo App",
+				"title": "React Todo App",
+				"description": {
+					"p1": "A todo app built with Reactjs and styled with Bootstrap. It takes note of your todo entry and you can also delete the entries too if you want.",
+					"p2": "Can be improved further with data persistence implementation of any choice."
+				},
 				"image": {
 					"src": "/images/dev/simple-todolist.png",
 					"alt": "project"
 				},
 				"website": "https://eny-todo.vercel.app/",
 				"tech": "Bootstrap, Reactjs"
-			},
-			{
-				"id": 5,
-				"description": "Vanilla Lotto Website",
-				"image": {
-					"src": "/images/dev/lotto-game.png",
-					"alt": "project"
-				},
-				"website": "",
-				"tech": "HTML, CSS, JS"
-			},
-			{
-				"id": 6,
-				"description": "React CV App",
-				"image": {
-					"src": "/images/dev/CVwebapp.png",
-					"alt": "project"
-				},
-				"website": "",
-				"tech": "Reactjs"
-			},
-			{
-				"id": 7,
-				"description": "Vanilla Guess Game Website",
-				"image": {
-					"src": "/images/dev/guess-game.png",
-					"alt": "project"
-				},
-				"website": "",
-				"tech": "HTML, CSS, JS"
 			}
 		]
 	},
 	"ux": {
-		"type": "UI/UX Design",
+		"type": "UI/UX Design Projects",
 		"tools": ["Photoshop", "Adobe XD"],
 		"projects": [
 			{
@@ -193,7 +182,7 @@
 		]
 	},
 	"gfx": {
-		"type": "Graphics Design",
+		"type": "Graphics Design Projects",
 		"tools": ["Photoshop", "Medibang"],
 		"projects": [
 			{

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Field = ({ id, description, tasks }) =>
+const Field = ({ id, title, tasks }) =>
   <div key={id}>
-    <h3>{description}</h3>
+    <h3>{title}</h3>
     <ul>{tasks.map(task => <li key={task}>{task}</li>)}</ul>
   </div>
 

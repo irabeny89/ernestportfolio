@@ -8,7 +8,7 @@ import UxSection from './UxSection'
 const NavSections = _ => {
   const { isDevClicked, isUxClicked,
     isGfxClicked } = useContext(NavMenuContext)
-  return isDevClicked && <DevSection {...dev} /> ||
+  return isDevClicked && <DevSection /> ||
     isUxClicked && <UxSection {...ux} /> ||
     isGfxClicked && <GfxSection {...gfx} />
 }
