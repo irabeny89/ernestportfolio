@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import { dev, ux, gfx } from '../../data/siteData.json'
 import DevSection from './DevSection'
 import GfxSection from './GfxSection'
 import { NavMenuContext } from './NavMenuProvider'
@@ -9,8 +8,8 @@ const NavSections = _ => {
   const { isDevClicked, isUxClicked,
     isGfxClicked } = useContext(NavMenuContext)
   return isDevClicked && <DevSection /> ||
-    isUxClicked && <UxSection {...ux} /> ||
-    isGfxClicked && <GfxSection {...gfx} />
+    isUxClicked && <UxSection /> ||
+    isGfxClicked && <GfxSection />
 }
 
 export default NavSections
