@@ -68,6 +68,20 @@
 		],
 		"projects": [
 			{
+				"id": 4,
+				"title": "Happen Social App",
+				"description": {
+					"p1": "A social media app with cool features like follow, unfollow, newsfeed, auths etc.",
+					"p2": "Inspired by the likes of Facebook and Instagram."
+				},
+				"image": {
+					"src": "/images/dev/happen-social.png",
+					"alt": "project"
+				},
+				"website": "https://happen.herokuapp.com/",
+				"tech": "Material-ui, Reactjs, Nodejs, MongoDB"
+			},
+			{
 				"id": 5,
 				"title": "Dashboard",
 				"description": {
@@ -108,34 +122,6 @@
 				},
 				"website": "https://servernoteapp.herokuapp.com/",
 				"tech": "Bootstrap, Expressjs, Handlebars"
-			},
-			{
-				"id": 3,
-				"title": "Vanilla Todo Website",
-				"description": {
-					"p1": "This was built using pure vanilla JavaScript, HTML5 and CSS3 only. No framework or library.",
-					"p2": "The app is a simple todo app like every other todo app that takes note of todo entries and can also delete entries  as well. It could be improved with data persistence."
-				},
-				"image": {
-					"src": "/images/dev/vanilla-todo-app.png",
-					"alt": "project"
-				},
-				"website": "https://eny-vanilla-todo.vercel.app/imgSrc/todo-tester.html",
-				"tech": "HTML, CSS, JS"
-			},
-			{
-				"id": 4,
-				"title": "React Todo App",
-				"description": {
-					"p1": "A todo app built with Reactjs and styled with Bootstrap. It takes note of your todo entry and you can also delete the entries too if you want.",
-					"p2": "Can be improved further with data persistence implementation of any choice."
-				},
-				"image": {
-					"src": "/images/dev/simple-todolist.png",
-					"alt": "project"
-				},
-				"website": "https://eny-todo.vercel.app/",
-				"tech": "Bootstrap, Reactjs"
 			}
 		]
 	},
