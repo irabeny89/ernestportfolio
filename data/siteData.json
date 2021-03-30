@@ -1,7 +1,7 @@
 {
 	"bio": {
-		"p1": "Hi, I am a fullstack web and mobile developer. I build full stack applications with JavaScript(JS).",
-		"p2": "I like working with Reactjs at the frontend and Nodejs at the backend and I also use Nextjs mainly for SEO, SSG & SSR. User Experience design with AdobeXd. CI/CD pipeline with Github Actions. Docker for containerization. Testing with Jest and React Testing Libraries."
+		"p1": "Hi, I am a fullstack software developer, with more than 2 years experience developing fullstack apps using different JavaScript tools and frameworks.",
+		"p2": "I like working with Reactjs and I also use Nextjs mainly for SEO, SSG & SSR at the frontend and Nodejs/Expressjs at the backend along with NoSQL or SQL databases. User Experience design with AdobeXd. git/github for SCM, CI/CD pipeline with Github Actions, Heroku, Vercel. Docker for containerization. Testing with Jest and React Testing Libraries."
 	},
 	"homeImage": {
 		"src": "/images/altumcode-dC6Pb2JdAqs-unsplash.jpg",
@@ -63,15 +63,16 @@
 			"Git",
 			"Github",
 			"Handlebars",
+			"EmbeddedJS",
 			"RESTful API",
 			"Autocannon"
 		],
 		"projects": [
 			{
-				"id": 4,
+				"id": "f8cd4810",
 				"title": "Happen Social App",
 				"description": {
-					"p1": "A social media app with cool features like follow, unfollow, newsfeed, auths etc.",
+					"p1": "A social media app with cool features like follow, unfollow, newsfeed, user authentication and authorization, data encryption etc.",
 					"p2": "Inspired by the likes of Facebook and Instagram."
 				},
 				"image": {
@@ -82,7 +83,7 @@
 				"tech": "Material-ui, Reactjs, Nodejs, MongoDB"
 			},
 			{
-				"id": 5,
+				"id": "10e730ed",
 				"title": "Dashboard",
 				"description": {
 					"p1": "This app uses https://randomuser.me API for random users data. And the interface is designed to look smart and presentable using Nextjs and Reactjs.",
@@ -96,7 +97,7 @@
 				"tech": "Nextjs, Reactjs"
 			},
 			{
-				"id": 1,
+				"id": "5e28733a",
 				"title": "Marketing Page Website",
 				"description": {
 					"p1": "This is a simplistic single page application built with Reactjs and Nextjs for a business with few navigation pages and a modal form page for user inputs.",
@@ -110,7 +111,21 @@
 				"tech": "Bootstrap, Nextjs, Reactjs"
 			},
 			{
-				"id": 2,
+				"id": "fd8073c7",
+				"title": "Client Side Note App",
+				"description": {
+					"p1": "Basic note app built using built with JavaScript framework- Nextjs. Client Side rendered components with data persistence on the client side using local storage on the browser. Full CRUD features to mutate data.",
+					"p2": "For application of this size the client storage is ok and a database would be an over-kill unless otherwise required."
+				},
+				"image": {
+					"src": "/images/dev/e-note-app.png",
+					"alt": "project"
+				},
+				"website": "https://enote-beta.vercel.app/",
+				"tech": "Nextjs, Reactjs"
+			},
+			{
+				"id": "3d2fa006",
 				"title": "Server Side Note App",
 				"description": {
 					"p1": "This is a Note taking app built Nodejs framework Expressjs, and handlebars styled with Bootstrap as the view templating engine.",
