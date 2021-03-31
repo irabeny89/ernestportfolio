@@ -9,7 +9,7 @@
 	},
 	"expertise": [
 		{
-			"id": 1,
+			"id": "eb5a101b",
 			"field": "Frontend",
 			"title": "UI/UX Design & Development",
 			"tasks": [
@@ -23,7 +23,7 @@
 			]
 		},
 		{
-			"id": 2,
+			"id": "acd131b6",
 			"field": "Backend",
 			"title": "Backend Development",
 			"tasks": [
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"id": 3,
+			"id": "d9208cdf",
 			"field": "Graphics Design",
 			"title": "Graphics Design",
 			"tasks": [
@@ -145,7 +145,7 @@
 		"tools": ["Photoshop", "Adobe XD"],
 		"projects": [
 			{
-				"id": 1,
+				"id": "bfd4596c",
 				"description": "Marketing Page Design",
 				"image": {
 					"src": "/images/ux/Adobe XD 01-Jan-21 7_06_50 PM.png",
@@ -154,7 +154,7 @@
 				"tech": "Adobe XD"
 			},
 			{
-				"id": 2,
+				"id": "dca53e71",
 				"description": "Portfolio Website Design",
 				"image": {
 					"src": "/images/ux/portfolio.png",
@@ -163,7 +163,7 @@
 				"tech": "Adobe XD"
 			},
 			{
-				"id": 3,
+				"id": "67d61f1f",
 				"description": "Simple Calculator Design",
 				"image": {
 					"src": "/images/ux/simple-calculator.png",
@@ -172,7 +172,7 @@
 				"tech": "Adobe XD"
 			},
 			{
-				"id": 4,
+				"id": "69b0f75d",
 				"description": "Todo App Design",
 				"image": {
 					"src": "/images/ux/todoapp initial design.png",
@@ -187,7 +187,7 @@
 		"tools": ["Photoshop", "Medibang"],
 		"projects": [
 			{
-				"id": 1,
+				"id": "6e191753",
 				"image": {
 					"src": "/images/gfx/1535727414912.jpg",
 					"alt": "project"
@@ -195,7 +195,7 @@
 				"tech": "Photoshop"
 			},
 			{
-				"id": 2,
+				"id": "60ebbbdc",
 				"image": {
 					"src": "/images/gfx/job11d.jpg",
 					"alt": "project"
@@ -203,7 +203,7 @@
 				"tech": "Photoshop"
 			},
 			{
-				"id": 3,
+				"id": "a2210660",
 				"image": {
 					"src": "/images/gfx/aliko.jpg",
 					"alt": "project"
@@ -211,7 +211,7 @@
 				"tech": "Photoshop"
 			},
 			{
-				"id": 4,
+				"id": "e76c01e8",
 				"image": {
 					"src": "/images/gfx/job1k.jpg",
 					"alt": "project"
@@ -219,15 +219,7 @@
 				"tech": "Photoshop"
 			},
 			{
-				"id": 5,
-				"image": {
-					"src": "/images/gfx/DJ HM.jpg",
-					"alt": "project"
-				},
-				"tech": "Photoshop"
-			},
-			{
-				"id": 6,
+				"id": "593fdffd",
 				"image": {
 					"src": "/images/gfx/shigo.jpg",
 					"alt": "project"
@@ -235,7 +227,7 @@
 				"tech": "Photoshop"
 			},
 			{
-				"id": 7,
+				"id": "189ba07b",
 				"image": {
 					"src": "/images/gfx/IMG_20170731_183808.jpg",
 					"alt": "project"
@@ -243,7 +235,7 @@
 				"tech": "Medibang"
 			},
 			{
-				"id": 8,
+				"id": "b0eabc4b",
 				"image": {
 					"src": "/images/gfx/SmartSelectImage_2019-05-06-11-31-20.png",
 					"alt": "project"
@@ -251,7 +243,7 @@
 				"tech": "Medibang"
 			},
 			{
-				"id": 9,
+				"id": "e25908b6",
 				"image": {
 					"src": "/images/gfx/SmartSelectImage_2019-05-06-11-43-41-1.png",
 					"alt": "project"
@@ -259,15 +251,7 @@
 				"tech": "Medibang"
 			},
 			{
-				"id": 10,
-				"image": {
-					"src": "/images/gfx/SmartSelectImage_2019-05-06-12-04-17.png",
-					"alt": "project"
-				},
-				"tech": "Medibang"
-			},
-			{
-				"id": 11,
+				"id": "3bf126fd",
 				"image": {
 					"src": "/images/gfx/SmartSelectImage_2019-05-06-12-06-37.png",
 					"alt": "project"
@@ -275,23 +259,7 @@
 				"tech": "Medibang"
 			},
 			{
-				"id": 12,
-				"image": {
-					"src": "/images/gfx/SmartSelectImage_2019-05-06-12-07-37.png",
-					"alt": "project"
-				},
-				"tech": "Medibang"
-			},
-			{
-				"id": 13,
-				"image": {
-					"src": "/images/gfx/SmartSelectImage_2019-05-07-11-42-17.png",
-					"alt": "project"
-				},
-				"tech": "Medibang"
-			},
-			{
-				"id": 14,
+				"id": "d5753674",
 				"image": {
 					"src": "/images/gfx/SmartSelectImage_2020-05-02-20-16-22.png",
 					"alt": "project"
@@ -299,7 +267,7 @@
 				"tech": "Medibang"
 			},
 			{
-				"id": 15,
+				"id": "46519f0e",
 				"image": {
 					"src": "/images/gfx/SmartSelectImage_2020-07-01-16-12-35.png",
 					"alt": "project"
@@ -307,7 +275,7 @@
 				"tech": "Medibang"
 			},
 			{
-				"id": 16,
+				"id": "f31777bd",
 				"image": {
 					"src": "/images/gfx/SmartSelectImage_2020-08-01-19-57-58.png",
 					"alt": "project"
@@ -317,14 +285,14 @@
 		]
 	},
 	"contact": [
-		{ "id": 1, "type": "Phone & Whatsapp", "line": "09020951797" },
-		{ "id": 2, "type": "Email", "line": "irabeny89@gmail.com" },
+		{ "id": "5b7f2b1f", "type": "Phone & Whatsapp", "line": "09020951797" },
+		{ "id":"1e265e16", "type": "Email", "line": "irabeny89@gmail.com" },
 		{
-			"id": 3,
+			"id": "3b5822cc",
 			"type": "Linkedin",
 			"line": "https://linkedin.com/in/ernest-irabor-085486183"
 		},
-		{ "id": 4, "type": "Github", "line": "https://github.com/irabeny89" }
+		{ "id": "964d6521", "type": "Github", "line": "https://github.com/irabeny89" }
 	],
 	"cv": {
 		"url": "https://drive.google.com/file/d/1a6XM-o_fZBNH1Eq17aOm9ySb5ygGabT-/view?usp=sharing"
