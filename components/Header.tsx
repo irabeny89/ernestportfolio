@@ -33,25 +33,25 @@ const Header = () => {
             {contacts.map(({ type, line }, i) => {
               if (type.includes("Whatsapp"))
                 return (
-                  <NavDropdown.Item as="a" href={`tel:${line}`} key={i + Math.random()} className="bg-secondary text-white">
+                  <NavDropdown.Item as="a" href={`tel:${line}`} key={i} className="bg-secondary text-white">
                       <FaWhatsapp /> {type}
                   </NavDropdown.Item>
                 );
               if (type.includes("Email"))
                 return (
-                  <NavDropdown.Item as="a" href={`mailto:${line}`} key={i + Math.random()} className="bg-secondary text-white">
+                  <NavDropdown.Item as="a" href={`mailto:${line}`} key={i} className="bg-secondary text-white">
                       <CgMail /> {type}
                   </NavDropdown.Item>
                 );
               if (type.includes("Linkedin"))
                 return (
-                  <NavDropdown.Item as="a" href={line} key={i + Math.random()} className="bg-secondary text-white">
+                  <NavDropdown.Item as="a" href={line} key={i} className="bg-secondary text-white">
                       <FaLinkedin /> {type}
                   </NavDropdown.Item>
                 );
               if (type.includes("Github"))
                 return (
-                  <NavDropdown.Item as="a" href={line} key={i + Math.random()} className="bg-secondary text-white">
+                  <NavDropdown.Item as="a" href={line} key={i} className="bg-secondary text-white">
                       <FaGithub /> {type}
                   </NavDropdown.Item>
                 );
