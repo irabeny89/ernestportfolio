@@ -11,25 +11,25 @@ const Footer = () => {
         {contacts.map(({ type, line }, i) => {
           if (type.includes("Whatsapp"))
             return (
-                <a href={`tel:${line}`}>
+                <a href={`tel:${line}`} key={i}>
                   <FaWhatsapp />
                 </a>
             );
           if (type.includes("Email"))
             return (
-                <a href={`mailto:${line}`}>
+                <a href={`mailto:${line}`} key={i}>
                   <CgMail />
                 </a>
             );
           if (type.includes("Linkedin"))
             return (
-                <a href={line}>
+                <a href={line} key={i}>
                   <FaLinkedin />
                 </a>
             );
           if (type.includes("Github"))
             return (
-                <a href={line}>
+                <a href={line} key={i}>
                   <FaGithub />
                 </a>
             );
