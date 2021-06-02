@@ -33,34 +33,26 @@ const Header = () => {
             {contacts.map(({ type, line }, i) => {
               if (type.includes("Whatsapp"))
                 return (
-                  <NavDropdown.Item key={i} className="bg-secondary">
-                    <Nav.Link href={`tel:${line}`}>
+                  <NavDropdown.Item as="a" href={`tel:${line}`} key={i + Math.random()} className="bg-secondary text-white">
                       <FaWhatsapp /> {type}
-                    </Nav.Link>
                   </NavDropdown.Item>
                 );
               if (type.includes("Email"))
                 return (
-                  <NavDropdown.Item key={i} className="bg-secondary">
-                    <Nav.Link href={`mailto:${line}`}>
+                  <NavDropdown.Item as="a" href={`mailto:${line}`} key={i + Math.random()} className="bg-secondary text-white">
                       <CgMail /> {type}
-                    </Nav.Link>
                   </NavDropdown.Item>
                 );
               if (type.includes("Linkedin"))
                 return (
-                  <NavDropdown.Item key={i} className="bg-secondary">
-                    <Nav.Link href={line}>
+                  <NavDropdown.Item as="a" href={line} key={i + Math.random()} className="bg-secondary text-white">
                       <FaLinkedin /> {type}
-                    </Nav.Link>
                   </NavDropdown.Item>
                 );
               if (type.includes("Github"))
                 return (
-                  <NavDropdown.Item key={i} className="bg-secondary">
-                    <Nav.Link href={line}>
+                  <NavDropdown.Item as="a" href={line} key={i + Math.random()} className="bg-secondary text-white">
                       <FaGithub /> {type}
-                    </Nav.Link>
                   </NavDropdown.Item>
                 );
             })}
