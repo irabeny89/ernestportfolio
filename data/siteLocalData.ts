@@ -1,8 +1,8 @@
 const siteLocalData = {
   avatar: {
-    width: "32",
-    height: "32",
-    src: "",
+    width: "35",
+    height: "35",
+    src: "/Ernest cartoon.jpg",
     alt: "avatar",
   },
   intro: "As a software developer I get things done using: ",
@@ -63,7 +63,7 @@ const siteLocalData = {
     },
   ],
   contacts: [
-    { type: "Phone & Whatsapp", line: "09020951797" },
+    { type: "Phone & Whatsapp", line: "+2349020951797" },
     { type: "Email", line: "irabeny89@gmail.com" },
     {
       type: "Linkedin",
