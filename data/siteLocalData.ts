@@ -6,7 +6,7 @@ const siteLocalData = {
     src: "/Ernest cartoon.jpg",
     alt: "avatar",
   },
-  intro: "I am a software developer, I build frontend and backend apps using:",
+  intro: "I am a software developer, I build fullstack apps using:",
   tools: [
     "JavaScript",
     "TypeScript",
