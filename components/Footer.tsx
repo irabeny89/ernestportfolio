@@ -6,31 +6,31 @@ const Footer = () => {
   const { contacts } = siteLocalData;
   return (
     <div className="d-flex justify-content-between bg-light text-primary">
-      <div>&copy; 2021</div>
+      <h3>&copy; 2021</h3>
       <div className="d-flex justify-content-around w-25">
         {contacts.map(({ type, line }, i) => {
           if (type.includes("Whatsapp"))
             return (
                 <a href={`tel:${line}`} key={i}>
-                  <FaWhatsapp />
+                  <FaWhatsapp size="40" />
                 </a>
             );
           if (type.includes("Email"))
             return (
                 <a href={`mailto:${line}`} key={i}>
-                  <CgMail />
+                  <CgMail size="40" />
                 </a>
             );
           if (type.includes("Linkedin"))
             return (
                 <a href={line} key={i}>
-                  <FaLinkedin />
+                  <FaLinkedin size="40" />
                 </a>
             );
           if (type.includes("Github"))
             return (
                 <a href={line} key={i}>
-                  <FaGithub />
+                  <FaGithub size="40" />
                 </a>
             );
         })}
