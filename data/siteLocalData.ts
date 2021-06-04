@@ -30,7 +30,7 @@ const siteLocalData = {
       summary: "Social media app with follow/unfollow, news feeds, posts etc.",
       link: {
         live: "http://happen.herokuapp.com",
-        github: "https://irabeny89/mern-social-happen",
+        github: "https://github.com/irabeny89/mern-social-happen",
       },
     },
     {
@@ -44,7 +44,7 @@ const siteLocalData = {
       summary: "Browser Local storage note app with full CRUD functions.",
       link: {
         live: "https://enote-beta.vercel.app/",
-        github: "https://irabeny89/enote",
+        github: "https://github.com/irabeny89/enote",
       },
     },
     {
@@ -58,7 +58,7 @@ const siteLocalData = {
       summary: "Server note app with full API CRUD functions.",
       link: {
         live: "https://servernoteapp.herokuapp.com/",
-        github: "https://irabeny89/servernotes",
+        github: "https://github.com/irabeny89/servernotes",
       },
     },
   ],
