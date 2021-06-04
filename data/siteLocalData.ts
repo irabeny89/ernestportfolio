@@ -1,16 +1,16 @@
 const siteLocalData = {
+  title: "Ernest Portfolio",
   avatar: {
     width: "35",
     height: "35",
     src: "/Ernest cartoon.jpg",
     alt: "avatar",
   },
-  intro: "As a software developer I get things done using: ",
+  intro: "I am a software developer, I build frontend and backend apps using:",
   tools: [
     "JavaScript",
     "TypeScript",
     "Nodejs",
-    "Expressjs",
     "Nextjs",
     "Reactjs",
     "MongoDB",
@@ -21,23 +21,23 @@ const siteLocalData = {
   projects: [
     {
       image: {
-        width: "32",
-        height: "32",
-        src: "",
+        width: "320",
+        height: "250",
+        src: "/happen-social.png",
         alt: "project",
       },
-      title: "Happen",
+      title: "Happen Social",
       summary: "Social media app with follow/unfollow, news feeds, posts etc.",
       link: {
         live: "http://happen.herokuapp.com",
-        github: "https://irabeny89/happen",
+        github: "https://irabeny89/mern-social-happen",
       },
     },
     {
       image: {
-        width: "32",
-        height: "32",
-        src: "",
+        width: "320",
+        height: "250",
+        src: "/e-note-app.png",
         alt: "project",
       },
       title: "E Note",
@@ -49,16 +49,16 @@ const siteLocalData = {
     },
     {
       image: {
-        width: "32",
-        height: "32",
-        src: "",
+        width: "320",
+        height: "250",
+        src: "/express-notesapp.png",
         alt: "project",
       },
       title: "Server Note",
       summary: "Server note app with full API CRUD functions.",
       link: {
         live: "https://servernoteapp.herokuapp.com/",
-        github: "https://irabeny89/servernote",
+        github: "https://irabeny89/servernotes",
       },
     },
   ],
