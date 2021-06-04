@@ -8,7 +8,7 @@ const Home = () => {
       <Head>
         <title>Ernest Portfolio</title>
       </Head>
-      <div className="pt-5 mt-5" style={{minWidth: "450px"}}>
+      <div className="pt-5 mt-5" style={{ minWidth: "450px" }}>
         <Intro />
         <Projects />
       </div>
