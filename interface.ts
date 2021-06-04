@@ -11,7 +11,7 @@ interface ImageI {
   sizes?: string;
 }
 
-interface ProjectI {
+export interface ProjectI {
   image: ImageI;
   title: string;
   summary: string;
@@ -28,6 +28,7 @@ interface CVI {
 }
 
 export interface SiteLocalDataI {
+  title: string;
   avatar: ImageI;
   intro: string;
   tools: string[];
