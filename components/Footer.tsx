@@ -5,7 +5,7 @@ import siteLocalData from "../data/siteLocalData";
 const Footer = () => {
   const { contacts } = siteLocalData;
   return (
-    <div className="d-flex justify-content-between bg-light text-primary">
+    <div className="d-flex justify-content-between bg-light text-primary py-2">
       <h3>&copy; 2021</h3>
       <div className="d-flex justify-content-around w-25">
         {contacts.map(({ type, line }, i) => {
