@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ButtonGroup, Button, Alert } from "react-bootstrap";
 import { FaCloud, FaGithub } from "react-icons/fa";
 import type { ProjectI } from "../interface";
+import siteStyle from "../utils/siteStyle";
 
 const Project = ({
   image: { width, height, alt, src },
@@ -9,9 +10,9 @@ const Project = ({
   summary,
   link: { github, live },
 }: ProjectI) => (
-  <div className="text-center my-5">
+  <div className="text-center my-5" style={siteStyle.projectContainer}>
     <Alert variant="warning">
-    <h3>{title}</h3>
+      <h3>{title}</h3>
     </Alert>
     <Alert variant="light">{summary}</Alert>
     <div className=" my-3">
