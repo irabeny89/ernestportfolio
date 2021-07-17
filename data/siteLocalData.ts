@@ -71,7 +71,7 @@ const siteLocalData = {
       title: "User Dashboard",
       summary: "Dashboard for users.",
       link: {
-        live: "https://vercel.com/irabeny/user-dashboard",
+        live: "https://user-dashboard-one.vercel.app/",
         github: "https://github.com/irabeny89/user-dashboard",
       },
     },
