@@ -65,6 +65,20 @@ const siteLocalData = {
       image: {
         width: "320",
         height: "250",
+        src: "/user-dashboard.png",
+        alt: "project",
+      },
+      title: "User Dashboard",
+      summary: "Dashboard for users.",
+      link: {
+        live: "https://vercel.com/irabeny/user-dashboard",
+        github: "https://github.com/irabeny89/user-dashboard",
+      },
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
         src: "/superbase.png",
         alt: "project",
       },
