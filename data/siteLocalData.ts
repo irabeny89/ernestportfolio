@@ -23,6 +23,20 @@ const siteLocalData = {
       image: {
         width: "320",
         height: "250",
+        src: "/movefund.png",
+        alt: "project",
+      },
+      title: "Move Fund",
+      summary: "Move fund from one place to another.",
+      link: {
+        live: "http://movefund.vercel.app",
+        github: "https://github.com/irabeny89/movefund",
+      },
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
         src: "/happen-social.png",
         alt: "project",
       },
@@ -114,7 +128,7 @@ const siteLocalData = {
     { type: "Github", line: "https://github.com/irabeny89" },
   ],
   cv: {
-    url: "https://drive.google.com/file/d/1a6XM-o_fZBNH1Eq17aOm9ySb5ygGabT-/view?usp=sharing",
+    url: "https://drive.google.com/file/d/19lc28dqktlUbGd-eKcSwz7ypw9DDGjtL/view?usp=drivesdk",
   },
 };
 
