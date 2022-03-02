@@ -23,6 +23,20 @@ const siteLocalData = {
       image: {
         width: "320",
         height: "250",
+        src: "/ebbs2022.png",
+        alt: "project",
+      },
+      title: "EBBS",
+      summary: "Meet buyers and sellers then transact.",
+      link: {
+        live: "http://ebbs.vercel.app",
+        github: "https://github.com/irabeny89/ebbs2022",
+      },
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
         src: "/movefund.png",
         alt: "project",
       },
