@@ -3,9 +3,9 @@ import { DiMongodb, DiMysql } from "react-icons/di";
 import {
   SiTypescript,
   SiJavascript,
-  SiNextDotJs,
+  SiNextdotjs,
   SiPostgresql,
-  SiNodeDotJs,
+  SiNodedotjs,
 } from "react-icons/si";
 import { GrReactjs, GrGraphQl } from "react-icons/gr";
 
@@ -31,13 +31,13 @@ const Intro = () => {
           if (tool === "Nodejs")
             return (
               <div key={i}>
-                <SiNodeDotJs color="green" /> {tool}
+                <SiNodedotjs color="green" /> {tool}
               </div>
             );
           if (tool === "Nextjs")
             return (
               <div key={i}>
-                <SiNextDotJs color="black" /> {tool}
+                <SiNextdotjs color="black" /> {tool}
               </div>
             );
           if (tool === "Reactjs")
