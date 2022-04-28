@@ -6,7 +6,8 @@ const siteLocalData = {
     src: "/Ernest cartoon.jpg",
     alt: "avatar",
   },
-  intro: "I am a software developer, I build interactive web apps using modern tools.",
+  intro:
+    "I am a software developer, I build interactive web apps using modern tools.",
   tools: [
     "JavaScript",
     "TypeScript",
@@ -45,6 +46,34 @@ const siteLocalData = {
       link: {
         live: "http://movefund.vercel.app",
         github: "https://github.com/irabeny89/movefund",
+      },
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
+        src: "/film-gallery.png",
+        alt: "project",
+      },
+      title: "Film Gallery",
+      summary: "Search your favorite films.",
+      link: {
+        live: "http://film-gallery.vercel.app",
+        github: "https://github.com/irabeny89/film-gallery",
+      },
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
+        src: "/github-webapp.png",
+        alt: "project",
+      },
+      title: "GitHub Repo Search",
+      summary: "Search Github repositories.",
+      link: {
+        live: "http://github-webapp.vercel.app",
+        github: "https://github.com/irabeny89/github-webapp",
       },
     },
     {
