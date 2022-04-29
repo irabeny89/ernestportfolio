@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component it matches snapshot. 1`] = `
+<nav
+  class="navbar navbar-expand-md navbar-dark bg-dark fixed-top"
+>
+  <span
+    class="px-2 navbar-brand"
+  >
+    <h1>
+      <span
+        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+      >
+        <span
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2745%27%20height=%2745%27/%3e"
+            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+          />
+        </span>
+        <img
+          alt="avatar"
+          class="rounded-circle"
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+        />
+        <noscript />
+      </span>
+       
+      Ernest Irabor
+    </h1>
+  </span>
+  <button
+    aria-controls="responsive-navbar-nav"
+    aria-label="Toggle navigation"
+    class="navbar-toggler collapsed"
+    type="button"
+  >
+    <span
+      class="navbar-toggler-icon"
+    />
+  </button>
+  <div
+    class="navbar-collapse collapse"
+    id="responsive-navbar-nav"
+  >
+    <div
+      class="mr-auto navbar-nav"
+    >
+      <div
+        class="nav-item dropdown"
+      >
+        <a
+          aria-expanded="false"
+          class="dropdown-toggle nav-link"
+          href="#"
+          id="collasible-nav-dropdown"
+          role="button"
+          tabindex="0"
+        >
+          Contacts
+        </a>
+      </div>
+      <a
+        class="nav-link"
+        data-rr-ui-event-key="https://drive.google.com/file/d/19lc28dqktlUbGd-eKcSwz7ypw9DDGjtL/view?usp=drivesdk"
+        href="https://drive.google.com/file/d/19lc28dqktlUbGd-eKcSwz7ypw9DDGjtL/view?usp=drivesdk"
+      >
+        CV / Resume
+      </a>
+    </div>
+  </div>
+</nav>
+`;
