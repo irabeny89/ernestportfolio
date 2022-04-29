@@ -1,8 +1,9 @@
 const siteLocalData = {
+  author: "Ernest Irabor",
   title: "Ernest Portfolio",
   avatar: {
-    width: "35",
-    height: "35",
+    width: "45",
+    height: "45",
     src: "/Ernest cartoon.jpg",
     alt: "avatar",
   },

@@ -6,6 +6,7 @@ import siteLocalData from "../data/siteLocalData";
 
 const Header = () => {
   const {
+    author,
     avatar: { src, height, alt, width },
     cv: { url },
     contacts,
@@ -23,39 +24,52 @@ const Header = () => {
               alt={alt}
             />
           }{" "}
-          Ernest Irabor
+          {author}
         </h1>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <NavDropdown title="Contacts" id="collasible-nav-dropdown">
-            {contacts.map(({ type, line }, i) => {
-              if (type.includes("Whatsapp"))
-                return (
-                  <NavDropdown.Item as="a" href={`tel:${line}`} key={i} className="bg-secondary text-white">
-                      <FaWhatsapp /> {type}
-                  </NavDropdown.Item>
-                );
-              if (type.includes("Email"))
-                return (
-                  <NavDropdown.Item as="a" href={`mailto:${line}`} key={i} className="bg-secondary text-white">
-                      <CgMail /> {type}
-                  </NavDropdown.Item>
-                );
-              if (type.includes("Linkedin"))
-                return (
-                  <NavDropdown.Item as="a" href={line} key={i} className="bg-secondary text-white">
-                      <FaLinkedin /> {type}
-                  </NavDropdown.Item>
-                );
-              if (type.includes("Github"))
-                return (
-                  <NavDropdown.Item as="a" href={line} key={i} className="bg-secondary text-white">
-                      <FaGithub /> {type}
-                  </NavDropdown.Item>
-                );
-            })}
+            {contacts.map(({ type, line }, i) =>
+              type.includes("Whatsapp") ? (
+                <NavDropdown.Item
+                  as="a"
+                  href={`tel:${line}`}
+                  key={i}
+                  className="bg-secondary text-white"
+                >
+                  <FaWhatsapp /> {type}
+                </NavDropdown.Item>
+              ) : type.includes("Email") ? (
+                <NavDropdown.Item
+                  as="a"
+                  href={`mailto:${line}`}
+                  key={i}
+                  className="bg-secondary text-white"
+                >
+                  <CgMail /> {type}
+                </NavDropdown.Item>
+              ) : type.includes("Linkedin") ? (
+                <NavDropdown.Item
+                  as="a"
+                  href={line}
+                  key={i}
+                  className="bg-secondary text-white"
+                >
+                  <FaLinkedin /> {type}
+                </NavDropdown.Item>
+              ) : type.includes("Github") ? (
+                <NavDropdown.Item
+                  as="a"
+                  href={line}
+                  key={i}
+                  className="bg-secondary text-white"
+                >
+                  <FaGithub /> {type}
+                </NavDropdown.Item>
+              ) : null
+            )}
           </NavDropdown>
           <Nav.Link href={url}>CV / Resume</Nav.Link>
         </Nav>
