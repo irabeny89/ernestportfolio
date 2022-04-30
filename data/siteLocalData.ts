@@ -7,7 +7,7 @@ const siteLocalData = {
     src: "/Ernest cartoon.jpg",
     alt: "avatar",
   },
-  copywriteYear: 2022,
+  copyWriteYear: 2022,
   intro:
     "I am a software developer, I build interactive web apps using modern tools.",
   tools: [

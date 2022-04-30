@@ -4,15 +4,13 @@ import Header from "components/Header";
 import siteLocalData from "data/siteLocalData";
 
 const {
-    author,
-    contacts,
-    cv: { url },
-  } = siteLocalData,
-  phoneWhatsApp = contacts.find(({ type }) => type.includes("Phone"));
+  author,
+  contacts,
+  cv: { url },
+} = siteLocalData;
 
 describe("Header component", () => {
-  beforeEach(() => render(<Header />).debug());
-  afterEach(cleanup);
+  beforeEach(() => render(<Header />));
 
   it("renders my full name.", () => {
     const header = screen.getByRole("heading");
@@ -44,8 +42,7 @@ describe("Header component", () => {
   });
 
   it("has a link to my CV.", () => {
-    const user = userEvent.setup(),
-      cvLink = screen.getByRole("link");
+    const cvLink = screen.getByRole("link");
 
     expect(cvLink).toHaveAttribute("href", url);
   });
