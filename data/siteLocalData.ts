@@ -164,13 +164,22 @@ const siteLocalData = {
     },
   ],
   contacts: [
-    { type: "Phone & Whatsapp", line: "+2349020951797" },
-    { type: "Email", line: "irabeny89@gmail.com" },
+    {
+      type: "Phone & Whatsapp",
+      line: "+2349020951797",
+    },
+    {
+      type: "Email",
+      line: "irabeny89@gmail.com",
+    },
     {
       type: "Linkedin",
       line: "https://linkedin.com/in/ernest-irabor-085486183",
     },
-    { type: "Github", line: "https://github.com/irabeny89" },
+    {
+      type: "Github",
+      line: "https://github.com/irabeny89",
+    },
   ],
   cv: {
     url: "https://drive.google.com/file/d/19lc28dqktlUbGd-eKcSwz7ypw9DDGjtL/view?usp=drivesdk",

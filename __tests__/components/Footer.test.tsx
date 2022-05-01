@@ -18,10 +18,8 @@ describe("Footer component", () => {
   it("renders my contacts with links.", async () => {
     const links = screen.getAllByRole("link");
 
-    links.forEach((link) =>
-      expect(
-        contacts.some(({ line }) => link.getAttribute("href")!.endsWith(line))
-      ).toBeTruthy()
+    links.forEach((link, i) =>
+      expect(link.getAttribute("href")!.endsWith(contacts[i].line)).toBeTruthy()
     );
   });
 

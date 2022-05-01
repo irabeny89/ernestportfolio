@@ -1,11 +1,11 @@
-import { CSSProperties } from 'react'
+import { CSSProperties } from "react";
 import siteLocalData from "../data/siteLocalData";
 import Project from "./Project";
-import siteStyle from "../utils/siteStyle";
+import { siteStyle } from "pages";
 
 const Projects = () => {
   const { projects } = siteLocalData;
-  const { projectsContainer } = siteStyle
+  const { projectsContainer } = siteStyle;
   return (
     <>
       <h2 className="mt-5 mb-0 pt-5 bg-warning container-fluid">Projects:</h2>

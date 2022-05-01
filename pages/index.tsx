@@ -2,6 +2,18 @@ import Head from "next/head";
 import Intro from "../components/Intro";
 import Projects from "../components/Projects";
 
+export const siteStyle = {
+  projectsContainer: {
+    display: "flex",
+    justifyContent: "center",
+    flexWrap: "wrap",
+    gap: 50,
+  },
+  projectContainer: {
+    width: 340
+  }
+};
+
 const Home = () => {
   return (
     <>
