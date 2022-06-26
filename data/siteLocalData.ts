@@ -82,6 +82,20 @@ const siteLocalData = {
       image: {
         width: "320",
         height: "250",
+        src: "/linkshare.png",
+        alt: "project",
+      },
+      title: "Link Share",
+      summary: "Share links to interesting sites.",
+      link: {
+        live: "http://linkshare.up.railway.app",
+        github: "https://github.com/irabeny89/linkshare",
+      },
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
         src: "/happen-social.png",
         alt: "project",
       },
