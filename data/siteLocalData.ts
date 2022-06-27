@@ -54,6 +54,20 @@ const siteLocalData = {
       image: {
         width: "320",
         height: "250",
+        src: "/edoctrans.png",
+        alt: "project",
+      },
+      title: "Edocument Translator",
+      summary: "Translate documents to another language.",
+      link: {
+        live: "http://edoctrans.vercel.app",
+        github: "https://github.com/irabeny89/edoctrans",
+      },
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
         src: "/film-gallery.png",
         alt: "project",
       },
