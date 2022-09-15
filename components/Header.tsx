@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
       <Navbar.Brand className="px-2">
-        <h1>
+        <h1 className="d-flex gap-2">
           {
             <Image
               className="rounded-circle"
