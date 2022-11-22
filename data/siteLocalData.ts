@@ -38,6 +38,21 @@ const siteLocalData = {
       image: {
         width: "320",
         height: "250",
+        src: "/bodman-home.png",
+        alt: "project",
+      },
+      title: "Bodman",
+      summary:
+        "Bet privately or publicly against other users onchain(Binance) and offchain(Naira).",
+      link: {
+        live: "http://bodman.vercel.app",
+        github: "https://github.com/irabeny89/bodman",
+      },
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
         src: "/ebbs2022.png",
         alt: "project",
       },
