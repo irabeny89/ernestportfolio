@@ -16,6 +16,7 @@ export interface ProjectI {
   title: string;
   summary: string;
   link: LinkI;
+  tools: string[];
 }
 
 interface ContactI {
