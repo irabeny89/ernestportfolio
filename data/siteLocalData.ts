@@ -1,3 +1,14 @@
+import { DiMongodb, DiMysql } from "react-icons/di";
+import {
+  SiTypescript,
+  SiJavascript,
+  SiNextdotjs,
+  SiPostgresql,
+  SiNodedotjs,
+  SiSolidity,
+} from "react-icons/si";
+import { GrReactjs, GrGraphQl } from "react-icons/gr";
+
 const siteLocalData = {
   author: "Ernest Irabor",
   title: "Ernest Portfolio",
@@ -11,15 +22,16 @@ const siteLocalData = {
   intro:
     "I am a software developer, I build interactive web apps using modern tools.",
   tools: [
-    "JavaScript",
-    "TypeScript",
-    "Nodejs",
-    "Nextjs",
-    "Reactjs",
-    "MongoDB",
-    "MySQL",
-    "GraphQL",
-    "PostgreSQL",
+    { name: "Solidity", Icon: SiSolidity, color: "black" },
+    { name: "JavaScript", Icon: SiJavascript, color: "#cc0" },
+    { name: "TypeScript", Icon: SiTypescript, color: "blue" },
+    { name: "Nodejs", Icon: SiNodedotjs, color: "green" },
+    { name: "Nextjs", Icon: SiNextdotjs, color: "black" },
+    { name: "Reactjs", Icon: GrReactjs, color: "cyan" },
+    { name: "MongoDB", Icon: DiMongodb, color: "green" },
+    { name: "MySQL", Icon: DiMysql, color: "blue" },
+    { name: "GraphQL", Icon: GrGraphQl, color: "crimson" },
+    { name: "PostgreSQL", Icon: SiPostgresql, color: "#00d" },
   ],
   projects: [
     {
