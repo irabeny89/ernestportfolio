@@ -7,11 +7,14 @@ const Intro = () => {
     <div data-testid="intro">
       <p className="display-4 text-center mb-5">{intro}</p>
       <div
-        className="d-flex justify-content-around flex-wrap"
+        className="d-flex gap-1 justify-content-around flex-wrap"
         data-testid="tools"
       >
-        {tools.map(({ name, Icon, color }) =>
-          (<div key="name"><Icon color={color} /> {name}</div>))}
+        {tools.map(({ name, Icon, color }) => (
+          <div key={name} className="d-flex align-items-center">
+            <Icon color={color} /> {name}
+          </div>
+        ))}
       </div>
     </div>
   );
