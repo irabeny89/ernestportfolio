@@ -6,6 +6,12 @@ import {
   SiPostgresql,
   SiNodedotjs,
   SiSolidity,
+  SiBootstrap,
+  SiTailwindcss,
+  SiExpress,
+  SiMaterialui,
+  SiJest,
+  SiMocha,
 } from "react-icons/si";
 import { GrReactjs, GrGraphQl } from "react-icons/gr";
 
@@ -25,13 +31,19 @@ const siteLocalData = {
     { name: "Solidity", Icon: SiSolidity, color: "black" },
     { name: "JavaScript", Icon: SiJavascript, color: "#cc0" },
     { name: "TypeScript", Icon: SiTypescript, color: "blue" },
-    { name: "Nodejs", Icon: SiNodedotjs, color: "green" },
-    { name: "Nextjs", Icon: SiNextdotjs, color: "black" },
-    { name: "Reactjs", Icon: GrReactjs, color: "cyan" },
+    { name: "NodeJS", Icon: SiNodedotjs, color: "green" },
+    { name: "ExpressJS", Icon: SiExpress, color: "green" },
+    { name: "NextJS", Icon: SiNextdotjs, color: "black" },
+    { name: "ReactJS", Icon: GrReactjs, color: "cyan" },
     { name: "MongoDB", Icon: DiMongodb, color: "green" },
     { name: "MySQL", Icon: DiMysql, color: "blue" },
     { name: "GraphQL", Icon: GrGraphQl, color: "crimson" },
     { name: "PostgreSQL", Icon: SiPostgresql, color: "#00d" },
+    { name: "Bootstrap", Icon: SiBootstrap, color: "purple" },
+    { name: "TailwindCSS", Icon: SiTailwindcss, color: "cyan" },
+    { name: "MaterialUI", Icon: SiMaterialui, color: "#00d" },
+    { name: "Jest", Icon: SiJest, color: "#00d" },
+    { name: "Mocha", Icon: SiMocha, color: "#00d" },
   ],
   projects: [
     {
@@ -43,11 +55,20 @@ const siteLocalData = {
       },
       title: "Bodman",
       summary:
-        "Bet privately or publicly against other users onchain(Binance) and offchain(Naira).",
+        "Web app that works as a `boardman` for two or more people who want to bet an amount and expect a random winner to be selected and given the total amount.",
       link: {
         live: "http://bodman.vercel.app",
         github: "https://github.com/irabeny89/bodman",
       },
+      tools: [
+        "NextJS",
+        "TypeScript",
+        "JavaScript",
+        "NodeJS",
+        "GraphQL",
+        "TailwindCSS",
+        "Jest",
+      ],
     },
     {
       image: {
@@ -57,11 +78,21 @@ const siteLocalData = {
         alt: "project",
       },
       title: "EBBS",
-      summary: "Meet buyers and sellers then transact.",
+      summary:
+        "EBBS(EveryBodyBySell) is an ecommerce web app for sellers and buyers.",
       link: {
         live: "http://ebbs.vercel.app",
         github: "https://github.com/irabeny89/ebbs2022",
       },
+      tools: [
+        "NextJS",
+        "TypeScript",
+        "JavaScript",
+        "NodeJS",
+        "GraphQL",
+        "TailwindCSS",
+        "Jest",
+      ],
     },
     {
       image: {
@@ -71,11 +102,21 @@ const siteLocalData = {
         alt: "project",
       },
       title: "Move Fund",
-      summary: "Move fund from one place to another.",
+      summary: "Transfers digital funds from one user to another.",
       link: {
         live: "http://movefund.vercel.app",
         github: "https://github.com/irabeny89/movefund",
       },
+      tools: [
+        "NextJS",
+        "TypeScript",
+        "JavaScript",
+        "NodeJS",
+        "GraphQL",
+        "MongoDB",
+        "Bootstrap",
+        "Jest"
+      ],
     },
     {
       image: {
@@ -85,11 +126,21 @@ const siteLocalData = {
         alt: "project",
       },
       title: "Edocument Translator",
-      summary: "Translate documents to another language.",
+      summary:
+        "Translate texts in document files like .doc/.docx from one language to another.",
       link: {
         live: "http://edoctrans.vercel.app",
         github: "https://github.com/irabeny89/edoctrans",
       },
+      tools: [
+        "NextJS",
+        "TypeScript",
+        "JavaScript",
+        "NodeJS",
+        "GraphQL",
+        "TailwindCSS",
+        "Jest",
+      ],
     },
     {
       image: {
@@ -99,11 +150,20 @@ const siteLocalData = {
         alt: "project",
       },
       title: "Film Gallery",
-      summary: "Search your favorite films.",
+      summary: "Search for your favorite films and get details about them.",
       link: {
         live: "http://film-gallery.vercel.app",
         github: "https://github.com/irabeny89/film-gallery",
       },
+      tools: [
+        "NextJS",
+        "TypeScript",
+        "JavaScript",
+        "NodeJS",
+        "GraphQL",
+        "Bootstrap",
+        "Jest"
+      ],
     },
     {
       image: {
@@ -113,11 +173,19 @@ const siteLocalData = {
         alt: "project",
       },
       title: "GitHub Repo Search",
-      summary: "Search Github repositories.",
+      summary: "Search the Github repositories from text entries.",
       link: {
         live: "http://github-webapp.vercel.app",
         github: "https://github.com/irabeny89/github-webapp",
       },
+      tools: [
+        "NextJS",
+        "TypeScript",
+        "JavaScript",
+        "NodeJS",
+        "Bootstrap",
+        "Jest"
+      ],
     },
     {
       image: {
@@ -127,11 +195,21 @@ const siteLocalData = {
         alt: "project",
       },
       title: "Link Share",
-      summary: "Share links to interesting sites.",
+      summary: "Share online links to interesting website resources.",
       link: {
         live: "http://linkshare.up.railway.app",
         github: "https://github.com/irabeny89/linkshare",
       },
+      tools: [
+        "NextJS",
+        "TypeScript",
+        "JavaScript",
+        "NodeJS",
+        "GraphQL",
+        "SQLite",
+        "Bootstrap",
+        "Jest",
+      ],
     },
     {
       image: {
@@ -146,6 +224,16 @@ const siteLocalData = {
         live: "http://sayforme.vercel.app",
         github: "https://github.com/irabeny89/sayforme",
       },
+      tools: [
+        "NextJS",
+        "TypeScript",
+        "JavaScript",
+        "NodeJS",
+        "GraphQL",
+        "MongoDB",
+        "TailwindCSS",
+        "Jest"
+      ],
     },
     {
       image: {
@@ -155,11 +243,13 @@ const siteLocalData = {
         alt: "project",
       },
       title: "Happen Social",
-      summary: "Social media app.",
+      summary:
+        "Social media web application to share posts, follow, unfollow, chat etc.",
       link: {
         live: "http://happen.herokuapp.com",
         github: "https://github.com/irabeny89/mern-social-happen",
       },
+      tools: ["ReeactJS", "NodeJS", "ExpressJS", "MongoDB", "MaterialUI"],
     },
     {
       image: {
@@ -174,6 +264,7 @@ const siteLocalData = {
         live: "https://crudapi-employee.herokuapp.com/",
         github: "https://github.com/irabeny89/employee-api",
       },
+      tools: ["JavaScript", "NodeJS", "ExpressJS", "Bootstrap"],
     },
     {
       image: {
@@ -183,11 +274,12 @@ const siteLocalData = {
         alt: "project",
       },
       title: "E Note",
-      summary: "Note taking app.",
+      summary: "Note taking web application.",
       link: {
         live: "https://enote-beta.vercel.app/",
         github: "https://github.com/irabeny89/enote",
       },
+      tools: ["JavaScript", "ReactJS", "NodeJS", "Bootstrap"],
     },
     {
       image: {
@@ -202,6 +294,7 @@ const siteLocalData = {
         live: "https://user-dashboard-one.vercel.app/",
         github: "https://github.com/irabeny89/user-dashboard",
       },
+      tools: ["JavaScript", "NextJS", "TypeScript", "NodeJS", "Bootstrap"],
     },
     {
       image: {
@@ -216,6 +309,7 @@ const siteLocalData = {
         live: "https://superbase.vercel.app/",
         github: "https://github.com/irabeny89/superbase",
       },
+      tools: ["JavaScript", "NextJS", "TypeScript", "NodeJS", "Bootstrap"],
     },
     {
       image: {
@@ -230,6 +324,7 @@ const siteLocalData = {
         live: "https://dcpicker.vercel.app/",
         github: "https://github.com/irabeny89/dcpicker",
       },
+      tools: ["JavaScript", "Nextjs", "TypeScript", "Nodejs", "Bootstrap"],
     },
   ],
   contacts: [
