@@ -3,20 +3,17 @@ import { ButtonGroup, Button, Alert } from "react-bootstrap";
 import { FaCloud, FaGithub } from "react-icons/fa";
 import type { ProjectI } from "../interface";
 import { siteStyle } from "pages";
-import siteLocalData from "data/siteLocalData";
+import siteLocalData from "siteLocalData";
 
 const { tools: generalTools } = siteLocalData;
 
-const getToolData = (toolName: string) =>
-  generalTools.find(({ name }) => toolName === name);
-
 const Tool = ({ toolName }: Record<"toolName", string>) => {
-  const toolData = generalTools.find(({ name }) => toolName === name);
+  const toolData = generalTools.find(
+    ({ name }) => toolName.toLowerCase() === name.toLowerCase()
+  );
   return (
     <div className="d-flex align-items-center">
-      {toolData && (
-          <toolData.Icon color={toolData.color} />
-      )}
+      {toolData && <toolData.Icon color={toolData.color} />}
       <div>{toolName}</div>
     </div>
   );
