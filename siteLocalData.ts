@@ -50,6 +50,31 @@ const siteLocalData = {
       image: {
         width: "320",
         height: "250",
+        src: "/profitall-home.png",
+        alt: "project",
+      },
+      title: "Profitall",
+      summary:
+        "Ecommerce web application for service providers to manage their services on the main seller website. Full dashboard with analytics, reports and management on: product catalog, logistics, payment etc.",
+      link: {
+        live: "http://profitall.vercel.app",
+        github: "",
+      },
+      tools: [
+        "NextJS",
+        "TypeScript",
+        "JavaScript",
+        "NodeJS",
+        "GraphQL",
+        "MongoDB",
+        "TailwindCSS",
+        "Jest",
+      ],
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
         src: "/bodman-home.png",
         alt: "project",
       },

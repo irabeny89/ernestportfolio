@@ -1,5 +1,5 @@
 import { CSSProperties } from "react";
-import siteLocalData from "../data/siteLocalData";
+import siteLocalData from "../siteLocalData";
 import Project from "./Project";
 import { siteStyle } from "pages";
 

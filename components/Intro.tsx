@@ -1,4 +1,4 @@
-import siteLocalData from "../data/siteLocalData";
+import siteLocalData from "../siteLocalData";
 
 const Intro = () => {
   const { tools, intro } = siteLocalData;

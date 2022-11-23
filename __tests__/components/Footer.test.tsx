@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import siteLocalData from "data/siteLocalData";
+import siteLocalData from "siteLocalData";
 import Footer from "components/Footer";
 
 const { contacts, copyWriteYear } = siteLocalData;

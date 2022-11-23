@@ -2,7 +2,7 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import Image from "next/image";
 import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
-import siteLocalData from "../data/siteLocalData";
+import siteLocalData from "../siteLocalData";
 
 const Header = () => {
   const {

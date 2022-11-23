@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import Project from "components/Projects";
-import siteLocalData from "data/siteLocalData";
+import siteLocalData from "siteLocalData";
 
 const { projects } = siteLocalData;
 

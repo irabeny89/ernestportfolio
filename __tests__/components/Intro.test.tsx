@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import Intro from "components/Intro";
-import siteLocalData from "data/siteLocalData";
+import siteLocalData from "siteLocalData";
 
 const { intro, tools } = siteLocalData;
 
