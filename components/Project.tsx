@@ -38,14 +38,14 @@ export default function Project({
       <Alert variant="light" className="h-25 overflow-auto">
         {summary}
       </Alert>
+      <div className="my-3">
+        <Image sizes="100" height={height} width={width} src={src} alt={alt} />
+      </div>
       <Alert variant="light" className="overflow-auto d-flex gap-2">
         {tools.map((tool) => (
           <Tool key={tool} toolName={tool} />
         ))}
       </Alert>
-      <div className="my-3">
-        <Image sizes="100" height={height} width={width} src={src} alt={alt} />
-      </div>
       <ButtonGroup className="d-flex">
         <Button as="a" href={live} variant="light" size="lg">
           <FaCloud /> Live
