@@ -5,6 +5,8 @@ import {
   SiNextdotjs,
   SiPostgresql,
   SiNodedotjs,
+  SiPython,
+  SiDocker,
   SiSolidity,
   SiBootstrap,
   SiTailwindcss,
@@ -44,6 +46,8 @@ const siteLocalData = {
     { name: "MaterialUI", Icon: SiMaterialui, color: "#00d" },
     { name: "Jest", Icon: SiJest, color: "#00d" },
     { name: "Mocha", Icon: SiMocha, color: "#00d" },
+    { name: "Python", Icon: SiPython, color: "#cc0" },
+    { name: "Docker", Icon: SiDocker, color: "#00f" },
   ],
   projects: [
     {
@@ -320,6 +324,21 @@ const siteLocalData = {
         github: "https://github.com/irabeny89/user-dashboard",
       },
       tools: ["JavaScript", "NextJS", "TypeScript", "NodeJS", "Bootstrap"],
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
+        src: "/python_estore_cli.png",
+        alt: "project",
+      },
+      title: "Grossary E-Store CLI",
+      summary: "A python Command Line program to manage a grossary store. Features includes products listing, cart management, checkout system, product restocking etc.",
+      link: {
+        live: "",
+        github: "https://github.com/irabeny89/estore-cli",
+      },
+      tools: ["Python"],
     },
     {
       image: {
