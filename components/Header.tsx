@@ -1,5 +1,6 @@
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import Image from "next/image";
+import Link from "next/link";
 import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import siteLocalData from "../siteLocalData";
@@ -14,18 +15,20 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
       <Navbar.Brand className="px-2">
-        <h1 className="d-flex gap-2">
-          {
-            <Image
-              className="rounded-circle"
-              src={src}
-              width={width}
-              height={height}
-              alt={alt}
-            />
-          }{" "}
-          {author}
-        </h1>
+        <Link href="/">
+          <h1 className="d-flex gap-2">
+            {
+              <Image
+                className="rounded-circle"
+                src={src}
+                width={width}
+                height={height}
+                alt={alt}
+              />
+            }{" "}
+            {author}
+          </h1>
+        </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
