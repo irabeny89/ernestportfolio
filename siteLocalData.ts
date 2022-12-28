@@ -63,8 +63,8 @@ const siteLocalData = {
       summary:
         "Ecommerce web application for service providers to manage their services on the main seller website. Full dashboard with analytics, reports and management on: product catalog, logistics, payment etc.",
       link: {
-        live: "http://profitall.vercel.app",
-        github: "",
+        live: "https://profitall.vercel.app",
+        github: "https://github.com/irabeny89/profitall",
       },
       tools: [
         "NextJS",
@@ -88,7 +88,7 @@ const siteLocalData = {
       summary:
         "Web app that works as a `boardman` for two or more people who want to bet an amount and expect a random winner to be selected and given the total amount.",
       link: {
-        live: "http://bodman.vercel.app",
+        live: "https://bodman.vercel.app",
         github: "https://github.com/irabeny89/bodman",
       },
       tools: [
