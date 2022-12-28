@@ -3,6 +3,7 @@ import {
   SiTypescript,
   SiJavascript,
   SiNextdotjs,
+  SiVuedotjs,
   SiPostgresql,
   SiNodedotjs,
   SiPython,
@@ -13,7 +14,7 @@ import {
   SiExpress,
   SiMaterialui,
   SiJest,
-  SiMocha,
+  SiMocha, 
 } from "react-icons/si";
 import { GrReactjs, GrGraphQl } from "react-icons/gr";
 
@@ -37,6 +38,7 @@ const siteLocalData = {
     { name: "ExpressJS", Icon: SiExpress, color: "green" },
     { name: "NextJS", Icon: SiNextdotjs, color: "black" },
     { name: "ReactJS", Icon: GrReactjs, color: "cyan" },
+    { name: "VueJS", Icon: SiVuedotjs, color: "green" },
     { name: "MongoDB", Icon: DiMongodb, color: "green" },
     { name: "MySQL", Icon: DiMysql, color: "blue" },
     { name: "GraphQL", Icon: GrGraphQl, color: "crimson" },
@@ -262,6 +264,24 @@ const siteLocalData = {
         "MongoDB",
         "TailwindCSS",
         "Jest"
+      ],
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
+        src: "/v-note.png",
+        alt: "project",
+      },
+      title: "V-Note",
+      summary: "A note taking app that stores notes securely in the users' local storage. Built purely with VueJS framework.",
+      link: {
+        live: "http://v-note.vercel.app",
+        github: "https://github.com/irabeny89/v-note",
+      },
+      tools: [
+        "VueJS",
+        "TypeScript",
       ],
     },
     {
