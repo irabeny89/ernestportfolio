@@ -56,6 +56,31 @@ const siteLocalData = {
       image: {
         width: "320",
         height: "250",
+        src: "/market-square.png",
+        alt: "project",
+      },
+      title: "Market Square",
+      summary:
+        "Ecommerce web application for service consumers to get access to products and services. ",
+      link: {
+        live: "https://market-square.vercel.app",
+        github: "",
+      },
+      tools: [
+        "NextJS",
+        "TypeScript",
+        "JavaScript",
+        "NodeJS",
+        "GraphQL",
+        "MongoDB",
+        "TailwindCSS",
+        "Jest",
+      ],
+    },
+    {
+      image: {
+        width: "320",
+        height: "250",
         src: "/profitall-home.png",
         alt: "project",
       },
