@@ -9,28 +9,56 @@ import {
   SiPython,
   SiDocker,
   SiSolidity,
+  SiRust,
   SiBootstrap,
   SiTailwindcss,
   SiExpress,
-  SiMaterialui,
+  SiMaterialdesign,
   SiJest,
-  SiMocha, 
+  SiMocha,
 } from "react-icons/si";
 import { GrReactjs, GrGraphQl } from "react-icons/gr";
 
 const siteLocalData = {
+  cv: {
+    url: "https://drive.google.com/file/d/19lc28dqktlUbGd-eKcSwz7ypw9DDGjtL/view?usp=drivesdk",
+  },
   author: "Ernest Irabor",
   title: "Ernest Portfolio",
+  description: "Ernest Irabor, software engineer portfolio website.",
   avatar: {
     width: "45",
     height: "45",
     src: "/Ernest cartoon.jpg",
     alt: "avatar",
   },
-  copyWriteYear: 2022,
+  copyWriteYear: 2023,
   intro:
     "I am a software developer, I build interactive web apps using modern tools.",
+  contacts: [
+    {
+      type: "Phone",
+      line: "+2349020951797",
+    },
+    {
+      type: "Whatsapp",
+      line: "+2349020951797",
+    },
+    {
+      type: "Email",
+      line: "irabeny89@gmail.com",
+    },
+    {
+      type: "Linkedin",
+      line: "https://linkedin.com/in/ernest-irabor-085486183",
+    },
+    {
+      type: "Github",
+      line: "https://github.com/irabeny89",
+    },
+  ],
   tools: [
+    { name: "Rust", Icon: SiRust, color: "black" },
     { name: "Solidity", Icon: SiSolidity, color: "black" },
     { name: "JavaScript", Icon: SiJavascript, color: "#cc0" },
     { name: "TypeScript", Icon: SiTypescript, color: "blue" },
@@ -45,7 +73,7 @@ const siteLocalData = {
     { name: "PostgreSQL", Icon: SiPostgresql, color: "#00d" },
     { name: "Bootstrap", Icon: SiBootstrap, color: "purple" },
     { name: "TailwindCSS", Icon: SiTailwindcss, color: "cyan" },
-    { name: "MaterialUI", Icon: SiMaterialui, color: "#00d" },
+    { name: "MaterialUI", Icon: SiMaterialdesign, color: "#00d" },
     { name: "Jest", Icon: SiJest, color: "#00d" },
     { name: "Mocha", Icon: SiMocha, color: "#00d" },
     { name: "Python", Icon: SiPython, color: "#cc0" },
@@ -416,27 +444,7 @@ const siteLocalData = {
       tools: ["JavaScript", "Nextjs", "TypeScript", "Nodejs", "Bootstrap"],
     },
   ],
-  contacts: [
-    {
-      type: "Phone & Whatsapp",
-      line: "+2349020951797",
-    },
-    {
-      type: "Email",
-      line: "irabeny89@gmail.com",
-    },
-    {
-      type: "Linkedin",
-      line: "https://linkedin.com/in/ernest-irabor-085486183",
-    },
-    {
-      type: "Github",
-      line: "https://github.com/irabeny89",
-    },
-  ],
-  cv: {
-    url: "https://drive.google.com/file/d/19lc28dqktlUbGd-eKcSwz7ypw9DDGjtL/view?usp=drivesdk",
-  },
+
 };
 
 export default siteLocalData;
