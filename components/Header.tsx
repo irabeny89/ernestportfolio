@@ -1,84 +1,97 @@
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import Image from "next/image";
-import Link from "next/link";
-import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
-import { CgMail } from "react-icons/cg";
+import { FaWhatsapp, FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
+import { CgMail, CgFileDocument } from "react-icons/cg";
 import siteLocalData from "../siteLocalData";
 
-const Header = () => {
-  const {
-    author,
-    avatar: { src, height, alt, width },
-    cv: { url },
-    contacts,
-  } = siteLocalData;
-  return (
-    <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top">
-      <Navbar.Brand className="px-2">
-        <Link href="/">
-          <h1 className="d-flex gap-2">
-            {
-              <Image
-                className="rounded-circle"
-                src={src}
-                width={width}
-                height={height}
-                alt={alt}
-              />
-            }{" "}
-            {author}
-          </h1>
-        </Link>
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">
-          <NavDropdown title="Contacts" id="collasible-nav-dropdown">
-            {contacts.map(({ type, line }, i) =>
-              type.includes("Whatsapp") ? (
-                <NavDropdown.Item
-                  as="a"
-                  href={`tel:${line}`}
-                  key={i}
-                  className="bg-secondary text-white"
-                >
-                  <FaWhatsapp /> {type}
-                </NavDropdown.Item>
-              ) : type.includes("Email") ? (
-                <NavDropdown.Item
-                  as="a"
-                  href={`mailto:${line}`}
-                  key={i}
-                  className="bg-secondary text-white"
-                >
-                  <CgMail /> {type}
-                </NavDropdown.Item>
-              ) : type.includes("Linkedin") ? (
-                <NavDropdown.Item
-                  as="a"
-                  href={line}
-                  key={i}
-                  className="bg-secondary text-white"
-                >
-                  <FaLinkedin /> {type}
-                </NavDropdown.Item>
-              ) : type.includes("Github") ? (
-                <NavDropdown.Item
-                  as="a"
-                  href={line}
-                  key={i}
-                  className="bg-secondary text-white"
-                >
-                  <FaGithub /> {type}
-                </NavDropdown.Item>
-              ) : null
-            )}
-          </NavDropdown>
-          <Nav.Link href={url}>CV / Resume</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
-  );
-};
+type ContactT = Record<"type" | "line", string>;
 
-export default Header;
+const {
+	author,
+	avatar: { src, height, alt, width },
+	contacts,
+	title,
+	cv,
+} = siteLocalData;
+
+const Phone = ({ line, type }: ContactT) => (
+	<a
+		href={`tel:${line}`}
+		className="flex items-center gap-1 hover:bg-slate-100"
+	>
+		<FaPhone /> {type}
+	</a>
+);
+
+const Whatsapp = ({ line, type }: ContactT) => (
+	<a
+		href={`https://api.whatsapp.com/send?phone=${line}&text=Hello ${author}`}
+		className="flex items-center gap-1 hover:bg-slate-100"
+	>
+		<FaWhatsapp /> {type}
+	</a>
+);
+
+const Email = ({ line, type }: ContactT) => (
+	<a
+		href={`mailto:${line}?subject=Good%20news%20${author}&body=Hello%20${author}`}
+		className="flex items-center gap-1 hover:bg-slate-100"
+	>
+		<CgMail /> {type}
+	</a>
+);
+
+const LinkedIn = ({ line, type }: ContactT) => (
+	<a href={line} className="flex items-center gap-1 hover:bg-slate-100">
+		<FaLinkedin /> {type}
+	</a>
+);
+
+const GitHub = ({ line, type }: ContactT) => (
+	<a href={line} className="flex items-center gap-1 hover:bg-slate-100">
+		<FaGithub /> {type}
+	</a>
+);
+
+const renderContact = (item: ContactT) =>
+	item.type === "Phone" ? (
+		<Phone key={item.type} {...item} />
+	) : item.type === "Whatsapp" ? (
+		<Whatsapp key={item.type} {...item} />
+	) : item.type === "Email" ? (
+		<Email key={item.type} {...item} />
+	) : item.type === "Linkedin" ? (
+		<LinkedIn key={item.type} {...item} />
+	) : item.type === "Github" ? (
+		<GitHub key={item.type} {...item} />
+	) : null;
+
+export default function Header() {
+	return (
+		<div className="p-5">
+			<div className="flex flex-col items-center">
+				<Image
+					src={src}
+					alt={alt}
+					width={+width}
+					height={+height}
+					className="rounded-full ring-2 ring-orange-300"
+				/>
+				<div className="font-semibold">{author}</div>
+				<div className="text-3xl font-bold">{title}</div>
+			</div>
+
+			<div>
+				<div className="font-semibold text-center">Contact Info</div>
+				<div className="outline-dashed rounded p-3 md:flex md:gap-4 text-sm w-fit mx-auto">
+					{contacts.map(renderContact)}
+					<a
+						href={cv.url}
+						className="flex items-center gap-1 hover:bg-slate-100"
+					>
+						<CgFileDocument /> CV
+					</a>
+				</div>
+			</div>
+		</div>
+	);
+}
