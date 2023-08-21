@@ -82,7 +82,7 @@ export default function Header() {
 
 			<div>
 				<div className="font-semibold text-center">Contact Info</div>
-				<div className="outline-dashed rounded p-3 md:flex md:gap-4 text-sm w-fit mx-auto">
+				<div className="outline-dashed rounded p-3 md:flex md:gap-4 w-fit mx-auto space-y-2">
 					{contacts.map(renderContact)}
 					<a
 						href={cv.url}
